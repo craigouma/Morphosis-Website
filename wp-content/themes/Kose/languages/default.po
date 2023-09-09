@@ -1,0 +1,3492 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kose Theme\n"
+"POT-Creation-Date: 2014-08-08 15:47+0700\n"
+"PO-Revision-Date: 2014-08-08 15:47+0700\n"
+"Last-Translator: Paul <paul@uxbarn.com>\n"
+"Language-Team: UXbarn <support@uxbarn.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:7
+msgid "404 Page Not Found"
+msgstr ""
+
+#: ../404.php:9
+msgid "The requested page could not be found or it is currently unavailable."
+msgstr ""
+
+#: ../404.php:11
+#, php-format
+msgid ""
+"Please <a href=\"%s\">click here</a> to go back to our home page or use the "
+"search form below."
+msgstr ""
+
+#: ../comments.php:14 ../includes/theme-functions.php:688
+#: ../template-blog-meta.php:63
+msgid "1 Comment"
+msgstr ""
+
+#: ../comments.php:14 ../template-blog-meta.php:63
+msgid "% Comments"
+msgstr ""
+
+#: ../comments.php:50
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:52 ../includes/plugin-codes/custom-uxbarn-team.php:148
+msgid "Email"
+msgstr ""
+
+#: ../comments.php:54 ../includes/plugin-codes/custom-uxbarn-portfolio.php:305
+#: ../uxb_templates/single-portfolio.php:71
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:60
+msgid "Comment"
+msgstr ""
+
+#: ../comments.php:66
+msgid "Leave a Comment"
+msgstr ""
+
+#: ../comments.php:68
+msgid "<span class=\"cancel-reply\">Cancel Reply</span>"
+msgstr ""
+
+#: ../comments.php:70
+msgid "Submit"
+msgstr ""
+
+#: ../comments.php:72
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../comments.php:74
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: ../footer.php:89 ../includes/plugin-codes/custom-uxbarn-portfolio.php:701
+#: ../uxb_templates/single-portfolio.php:234
+#: ../uxb_templates/taxonomy-portfolio.php:11
+msgid "Loading"
+msgstr ""
+
+#: ../header.php:370 ../includes/style-customizer/sections/menu.php:22
+msgid "Menu"
+msgstr ""
+
+#: ../header.php:401 ../includes/theme-options.php:112
+msgid ""
+"2014 &copy; Kose.<br/>Premium Theme by <a href=\"http://themeforest.net/user/"
+"UXbarn?ref=UXbarn\">UXbarn</a>."
+msgstr ""
+
+#: ../includes/assets.php:133
+msgid "Swipe down for more"
+msgstr ""
+
+#: ../includes/assets.php:268
+msgid ""
+"\"Default Sidebar\" is the sidebar that you have set in \"Settings > Reading"
+"\" on your admin panel."
+msgstr ""
+
+#: ../includes/assets.php:269
+msgid ""
+"This is for page sidebar only. For blog sidebar, you can see the option in "
+"\"Theme Options > Blog\"."
+msgstr ""
+
+#: ../includes/assets.php:294
+msgid "Theme Version "
+msgstr ""
+
+#: ../includes/assets.php:295
+msgid ""
+"Welcome to theme options page! In case you need the support, you can find me "
+"at"
+msgstr ""
+
+#: ../includes/comment-item.php:42
+msgid "Edit"
+msgstr ""
+
+#: ../includes/comment-item.php:45
+msgid "Reply"
+msgstr ""
+
+#: ../includes/comment-item.php:55
+#, php-format
+msgctxt "1 = date, 2 = time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../includes/comment-item.php:60
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../includes/custom-widgets.php:8
+msgid "[UX] Recent Posts"
+msgstr ""
+
+#: ../includes/custom-widgets.php:9
+msgid ""
+"Displays a list of recent posts. This widget is built in the theme itself."
+msgstr ""
+
+#: ../includes/custom-widgets.php:15
+msgid "Recent Posts"
+msgstr ""
+
+#: ../includes/custom-widgets.php:24 ../includes/custom-widgets.php:183
+#: ../includes/custom-widgets.php:258 ../includes/custom-widgets.php:325
+#: ../includes/custom-widgets.php:442 ../includes/custom-widgets.php:516
+#: ../includes/plugin-codes/uxbarn-testimonials/custom-widgets.php:21
+msgid "Title:"
+msgstr ""
+
+#: ../includes/custom-widgets.php:28
+msgid "Post title length:"
+msgstr ""
+
+#: ../includes/custom-widgets.php:32
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../includes/custom-widgets.php:37
+msgid "Show post thumbnail?"
+msgstr ""
+
+#: ../includes/custom-widgets.php:41
+msgid "Show post date?"
+msgstr ""
+
+#: ../includes/custom-widgets.php:44
+msgid "Select specific categories to be shown:"
+msgstr ""
+
+#: ../includes/custom-widgets.php:46
+msgid "(*Uncheck all will show every category)"
+msgstr ""
+
+#: ../includes/custom-widgets.php:169
+msgid "[UX] Flickr Photos"
+msgstr ""
+
+#: ../includes/custom-widgets.php:170
+msgid ""
+"Displays a list of photos from Flickr. This widget is built in the theme "
+"itself."
+msgstr ""
+
+#: ../includes/custom-widgets.php:176
+msgid "Flickr Photos"
+msgstr ""
+
+#: ../includes/custom-widgets.php:187
+msgid "Flickr ID:"
+msgstr ""
+
+#: ../includes/custom-widgets.php:189
+msgid "Don't know your ID?"
+msgstr ""
+
+#: ../includes/custom-widgets.php:189 ../includes/custom-widgets.php:527
+msgid "Click here"
+msgstr ""
+
+#: ../includes/custom-widgets.php:193
+msgid "Number of photos to show:"
+msgstr ""
+
+#: ../includes/custom-widgets.php:200
+msgid "Random orders?"
+msgstr ""
+
+#: ../includes/custom-widgets.php:246
+msgid "[UX] Video"
+msgstr ""
+
+#: ../includes/custom-widgets.php:247
+msgid ""
+"Displays a video from YouTube or Vimeo. This widget is built in the theme "
+"itself."
+msgstr ""
+
+#: ../includes/custom-widgets.php:253
+#: ../includes/meta-boxes/shared-meta-fullscreen.php:118
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:357
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:485
+#: ../includes/plugin-codes/visual-composer/mapping.php:216
+msgid "Video"
+msgstr ""
+
+#: ../includes/custom-widgets.php:262
+msgid "Video URL:"
+msgstr ""
+
+#: ../includes/custom-widgets.php:266
+msgid ""
+"Enter the URL to your YouTube or Vimeo video here. <br/><br/>For example, "
+"<strong>http://www.youtube.com/watch?v=G_G8SdXktHg</strong> for YouTube. Or, "
+"<strong>http://www.vimeo.com/7449107</strong> for Vimeo."
+msgstr ""
+
+#: ../includes/custom-widgets.php:306
+msgid "[UX] Contact Info"
+msgstr ""
+
+#: ../includes/custom-widgets.php:307
+msgid "Displays contact information. This widget is built in the theme itself."
+msgstr ""
+
+#: ../includes/custom-widgets.php:313
+msgid "Contact Info"
+msgstr ""
+
+#: ../includes/custom-widgets.php:329
+msgid "Logo URL:"
+msgstr ""
+
+#: ../includes/custom-widgets.php:333
+msgid "Contact Person:"
+msgstr ""
+
+#: ../includes/custom-widgets.php:337
+msgid "Description:"
+msgstr ""
+
+#: ../includes/custom-widgets.php:341 ../includes/custom-widgets.php:530
+msgid "Address:"
+msgstr ""
+
+#: ../includes/custom-widgets.php:345 ../includes/custom-widgets.php:411
+msgid "Phone:"
+msgstr ""
+
+#: ../includes/custom-widgets.php:349 ../includes/custom-widgets.php:412
+msgid "Mobile:"
+msgstr ""
+
+#: ../includes/custom-widgets.php:353 ../includes/custom-widgets.php:413
+msgid "Fax:"
+msgstr ""
+
+#: ../includes/custom-widgets.php:357 ../includes/custom-widgets.php:414
+msgid "Email:"
+msgstr ""
+
+#: ../includes/custom-widgets.php:429
+msgid "[UX] Banner"
+msgstr ""
+
+#: ../includes/custom-widgets.php:430
+msgid ""
+"Widget for placing your image banner. This widget is built in the theme "
+"itself."
+msgstr ""
+
+#: ../includes/custom-widgets.php:436
+msgid "Banner"
+msgstr ""
+
+#: ../includes/custom-widgets.php:446
+msgid "Image URL:"
+msgstr ""
+
+#: ../includes/custom-widgets.php:450
+msgid "Link URL:"
+msgstr ""
+
+#: ../includes/custom-widgets.php:453
+msgid "Make sure to put \"http://\" at the front of the URL."
+msgstr ""
+
+#: ../includes/custom-widgets.php:500
+msgid "[UX] Google Maps"
+msgstr ""
+
+#: ../includes/custom-widgets.php:501
+msgid ""
+"Displays a map of specified location using Google Maps. This widget is built "
+"in the theme itself."
+msgstr ""
+
+#: ../includes/custom-widgets.php:507
+msgid "Google Maps"
+msgstr ""
+
+#: ../includes/custom-widgets.php:520
+msgid "Latitude:"
+msgstr ""
+
+#: ../includes/custom-widgets.php:524
+msgid "Longitude:"
+msgstr ""
+
+#: ../includes/custom-widgets.php:527
+msgid "Don't know your latitude and longitude?"
+msgstr ""
+
+#: ../includes/custom-widgets.php:533
+msgid ""
+"If this address field is left blank, the latitude and longitude will be "
+"used. Otherwise, theme will use this entered address to render a map instead."
+msgstr ""
+
+#: ../includes/custom-widgets.php:536
+msgid "Zoom Level (7-20):"
+msgstr ""
+
+#: ../includes/custom-widgets.php:540
+msgid "Map Height:"
+msgstr ""
+
+#: ../includes/meta-boxes/meta-page.php:24
+msgid "Page Intro Settings"
+msgstr ""
+
+#: ../includes/meta-boxes/meta-page.php:32
+msgid "Display Page Intro?"
+msgstr ""
+
+#: ../includes/meta-boxes/meta-page.php:33
+msgid ""
+"Whether to show Page Intro which will be displayed at the top of this page/"
+"post."
+msgstr ""
+
+#: ../includes/meta-boxes/meta-page.php:44
+msgid "Intro Title"
+msgstr ""
+
+#: ../includes/meta-boxes/meta-page.php:45
+msgid "If it is left blank, general title will be used instead."
+msgstr ""
+
+#: ../includes/meta-boxes/meta-page.php:56
+msgid "Intro Body Text"
+msgstr ""
+
+#: ../includes/meta-boxes/meta-page.php:57
+msgid "To be displayed as a Page Intro's body."
+msgstr ""
+
+#: ../includes/meta-boxes/meta-page.php:83
+msgid "Sidebar Setting"
+msgstr ""
+
+#: ../includes/meta-boxes/meta-page.php:91
+msgid "Sidebar Appearance"
+msgstr ""
+
+#: ../includes/meta-boxes/meta-page.php:103
+msgid "Hide sidebar selected above"
+msgstr ""
+
+#: ../includes/meta-boxes/meta-page.php:108 ../includes/theme-options.php:273
+msgid "Right side"
+msgstr ""
+
+#: ../includes/meta-boxes/meta-page.php:113 ../includes/theme-options.php:278
+msgid "Left side"
+msgstr ""
+
+#: ../includes/meta-boxes/meta-post.php:25
+msgid "Post Excerpt Settings"
+msgstr ""
+
+#: ../includes/meta-boxes/meta-post.php:33
+msgid "Post Excerpt"
+msgstr ""
+
+#: ../includes/meta-boxes/meta-post.php:34
+msgid ""
+"This post excerpt will be used as a summarized description for your blog "
+"post. It will be displayed on the blog post list. <p>If you leave this "
+"blank, the very first post content will be used to display instead.</p>"
+msgstr ""
+
+#: ../includes/meta-boxes/meta-post.php:60
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:214
+msgid "Alternate Content Settings"
+msgstr ""
+
+#: ../includes/meta-boxes/meta-post.php:68
+msgid "Alternate Thumbnail for Blog Posts Element"
+msgstr ""
+
+#: ../includes/meta-boxes/meta-post.php:69
+msgid ""
+"By default, when using Blog Posts Element (via Visual Composer) on a page, "
+"it will use Featured Image for each post thumbnail. If you want to use the "
+"different thumbnail for the element, you can use this option.<br/><br/>Note "
+"that if you leave this blank, the element will use Featured Image for the "
+"thumbnail (default)."
+msgstr ""
+
+#: ../includes/meta-boxes/meta-post.php:95
+msgid "Meta Info / Other Settings"
+msgstr ""
+
+#: ../includes/meta-boxes/meta-post.php:103 ../includes/theme-options.php:299
+msgid "Show Date?"
+msgstr ""
+
+#: ../includes/meta-boxes/meta-post.php:104 ../includes/theme-options.php:300
+msgid "Whether to display the date on blog posts page and single page."
+msgstr ""
+
+#: ../includes/meta-boxes/meta-post.php:115 ../includes/theme-options.php:312
+msgid "Show Author Name?"
+msgstr ""
+
+#: ../includes/meta-boxes/meta-post.php:116 ../includes/theme-options.php:313
+msgid "Whether to display the author name on blog posts page and single page."
+msgstr ""
+
+#: ../includes/meta-boxes/meta-post.php:127 ../includes/theme-options.php:325
+msgid "Show Comment Count?"
+msgstr ""
+
+#: ../includes/meta-boxes/meta-post.php:128 ../includes/theme-options.php:326
+msgid ""
+"Whether to display the comment count on blog posts page and single page."
+msgstr ""
+
+#: ../includes/meta-boxes/meta-post.php:139 ../includes/theme-options.php:338
+msgid "Show Author Box on Single Page?"
+msgstr ""
+
+#: ../includes/meta-boxes/meta-post.php:140 ../includes/theme-options.php:339
+msgid "Whether to display the author box on the post single page."
+msgstr ""
+
+#: ../includes/meta-boxes/meta-post.php:151 ../includes/theme-options.php:351
+msgid "Show Tags on Single Page?"
+msgstr ""
+
+#: ../includes/meta-boxes/meta-post.php:152 ../includes/theme-options.php:352
+msgid "Whether to display the tags list on the post single page."
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-content.php:9
+msgid "Content Area Settings"
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-content.php:17
+msgid "Display Content Area on Load?"
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-content.php:18
+msgid "Whether to display the content area on page load."
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-content.php:31
+msgid "Display Show/Hide Toggle Button?"
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-content.php:32
+msgid ""
+"Whether to display the toggle button for showing/hiding the content area."
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-fullscreen.php:9
+msgid "Fullscreen Slider Settings"
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-fullscreen.php:17
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:387
+msgid "Slides"
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-fullscreen.php:18
+msgid ""
+"You can use this option to manage the slides of fullscreen slider to use "
+"with this page/post. <p>*If you want to use just a fullscreen background, "
+"simply create only one slide here.</p>"
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-fullscreen.php:32
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:399
+msgid "Caption Text"
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-fullscreen.php:33
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:400
+msgid "Enter the caption text for this slide."
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-fullscreen.php:46
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:413
+msgid "Optional Link Text"
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-fullscreen.php:47
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:414
+msgid ""
+"Enter the text for the optional link to display with caption. You can leave "
+"it blank if you do not want to use the link."
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-fullscreen.php:60
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:427
+msgid "Optional Link URL"
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-fullscreen.php:61
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:428
+msgid "Enter the target URL for the link. For example: http://www.uxbarn.com"
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-fullscreen.php:74
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:441
+msgid "Caption Color"
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-fullscreen.php:75
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:442
+msgid "Select custom color for the caption."
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-fullscreen.php:85
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:452
+msgid "Display Caption?"
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-fullscreen.php:86
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:453
+msgid "Whether to display the caption for this slide."
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-fullscreen.php:99
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:466
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:66
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:1361
+#: ../includes/plugin-codes/visual-composer/mapping.php:387
+#: ../includes/plugin-codes/visual-composer/mapping.php:501
+#: ../includes/plugin-codes/visual-composer/mapping.php:1134
+msgid "Type"
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-fullscreen.php:100
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:467
+msgid "Select the type for this slide."
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-fullscreen.php:113
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:480
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:494
+#: ../includes/plugin-codes/visual-composer/mapping.php:123
+#: ../includes/plugin-codes/visual-composer/mapping.php:130
+msgid "Image"
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-fullscreen.php:126
+msgid "Slide Image"
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-fullscreen.php:127
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:495
+msgid "Upload an image for this slide. Recommended size is \"2048x1365\"."
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-fullscreen.php:141
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:508
+msgid "Video Cover Image"
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-fullscreen.php:142
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:509
+msgid ""
+"Upload a cover image for this video-type slide. The cover image will display "
+"when the video clip is loading and will be used on mobile devices."
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-fullscreen.php:155
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:522
+msgid "Video Clip"
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-fullscreen.php:156
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:523
+msgid ""
+"Upload a video clip for this slide. The video file should be in <strong>\"."
+"mp4\"</strong> format and the file size should not be too large."
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-fullscreen.php:171
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:540
+msgid "Caption Style"
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-fullscreen.php:172
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:541
+msgid "Select the caption style for the slider."
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-fullscreen.php:185
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:554
+msgid "Animating"
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-fullscreen.php:190
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:559
+#: ../includes/style-customizer/customizer-functions.php:128
+#: ../includes/style-customizer/customizer-functions.php:147
+msgid "Normal"
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-fullscreen.php:197
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:566
+msgid "Slider Bullet Color"
+msgstr ""
+
+#: ../includes/meta-boxes/shared-meta-fullscreen.php:198
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:567
+msgid "Select custom color for the bullets."
+msgstr ""
+
+#: ../includes/plugin-codes/custom-optiontree.php:40
+#: ../includes/plugin-codes/custom-optiontree.php:41
+msgid "Theme Options"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-optiontree.php:46
+msgid "Theme Options updated."
+msgstr ""
+
+#: ../includes/plugin-codes/custom-optiontree.php:47
+msgid "Theme Options reset."
+msgstr ""
+
+#: ../includes/plugin-codes/custom-optiontree.php:48
+msgid "Save Changes"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:63
+msgid ""
+"Please find below for some options that you can set for UXbarn Portfolio "
+"plugin."
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:81
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:83
+msgid "Portfolio"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:84
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:85
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:86
+msgid "New Portfolio Item"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:87
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:88
+msgid "All Portfolio Items"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:89
+msgid "View Portfolio"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:90
+msgid "Search Portfolio"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:91
+#: ../includes/plugin-codes/custom-uxbarn-team.php:47
+msgid "Nothing found"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:92
+#: ../includes/plugin-codes/custom-uxbarn-team.php:48
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:95
+msgid "Portfolio of your business"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:102
+msgid "portfolio"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:111
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:125
+msgid "Portfolio Category"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:112
+msgid "Search Categories"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:113
+msgid "All Categories"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:114
+msgid "Edit Category"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:115
+msgid "Update Category"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:116
+msgid "Add New Category"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:124
+msgid "Portfolio Categories"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:126
+msgid "portfolio-category"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:146
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:58
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:177
+#: ../includes/plugin-codes/visual-composer/mapping.php:727
+#: ../includes/plugin-codes/visual-composer/mapping.php:1226
+#: ../includes/plugin-codes/visual-composer/param-array.php:132
+msgid "Title"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:147
+msgid "Thumbnail"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:148
+#: ../uxb_templates/single-portfolio.php:48
+msgid "Categories"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:222
+msgid "Alternate Thumbnail for Slider Type of Portfolio Element"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:223
+msgid ""
+"By default, when using Portfolio Element (via Visual Composer) on a page "
+"with \"Grid Columns\" type, it will use Featured Image for each item "
+"thumbnail. If you want to use the \"Slider\" type with different thumbnail, "
+"you can use this option.<br/><br/>Note that if you leave this blank, the "
+"\"Slider\" type will also use Featured Image for the thumbnail."
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:249
+msgid "Portfolio Meta Info Setting"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:257
+msgid "Show meta info of this item?"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:258
+msgid ""
+"Use this option if you want to show or hide meta information on single page."
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:269
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:100
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:113
+#: ../includes/plugin-codes/visual-composer/mapping.php:82
+#: ../includes/plugin-codes/visual-composer/mapping.php:171
+#: ../includes/plugin-codes/visual-composer/mapping.php:666
+#: ../includes/plugin-codes/visual-composer/mapping.php:690
+#: ../includes/plugin-codes/visual-composer/mapping.php:902
+#: ../includes/plugin-codes/visual-composer/mapping.php:1187
+#: ../includes/plugin-codes/visual-composer/mapping.php:1200
+#: ../includes/plugin-codes/visual-composer/mapping.php:1422
+#: ../includes/plugin-codes/visual-composer/mapping.php:1430
+#: ../includes/plugin-codes/visual-composer/mapping.php:1438
+#: ../includes/plugin-codes/visual-composer/param-array.php:77
+#: ../includes/plugin-codes/visual-composer/param-array.php:392
+msgid "Yes"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:274
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:99
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:112
+#: ../includes/plugin-codes/visual-composer/mapping.php:81
+#: ../includes/plugin-codes/visual-composer/mapping.php:170
+#: ../includes/plugin-codes/visual-composer/mapping.php:665
+#: ../includes/plugin-codes/visual-composer/mapping.php:691
+#: ../includes/plugin-codes/visual-composer/mapping.php:903
+#: ../includes/plugin-codes/visual-composer/mapping.php:1188
+#: ../includes/plugin-codes/visual-composer/mapping.php:1201
+#: ../includes/plugin-codes/visual-composer/mapping.php:1422
+#: ../includes/plugin-codes/visual-composer/mapping.php:1430
+#: ../includes/plugin-codes/visual-composer/mapping.php:1438
+#: ../includes/plugin-codes/visual-composer/param-array.php:19
+#: ../includes/plugin-codes/visual-composer/param-array.php:76
+#: ../includes/plugin-codes/visual-composer/param-array.php:393
+msgid "No"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:281
+#: ../uxb_templates/single-portfolio.php:42
+msgid "Date"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:282
+msgid "Enter the creation date of this item. Example: <em>March 15, 2013</em>"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:293
+#: ../uxb_templates/single-portfolio.php:45
+msgid "Client"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:294
+msgid "Enter the client name"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:306
+msgid "Enter the website. Example: <em>www.uxbarn.com</em>"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:332
+msgid "Portfolio Item Format Setting"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:340
+msgid "Portfolio Item Format"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:341
+msgid ""
+"Select the format for this item. Then you can manage its specific content "
+"using the meta box below.<br/><br/>Every format uses <strong>Featured Image "
+"for thumbnail</strong> and <strong>meta box below for content</strong> (in "
+"single page)."
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:352
+msgid "Image/Slideshow"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:379
+msgid "Meta Box for Fullscreen Slider"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:388
+msgid ""
+"You can use this setting to add the images/video clips for this portfolio "
+"item. They will be displayed as fullscreen slider."
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:633
+msgid "Cannot generate Portfolio element. Categories must be defined."
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:694
+msgid "There are no portfolio items available in the selected categories."
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:709
+msgid "All"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:757
+#: ../includes/plugin-codes/custom-uxbarn-portfolio.php:815
+#: ../uxb_templates/single-portfolio.php:248
+#: ../uxb_templates/taxonomy-portfolio.php:25
+msgid "No Thumbnail"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:37
+#: ../includes/plugin-codes/custom-uxbarn-team.php:51
+msgid "Team"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:39
+msgid "Team Member"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:40
+#: ../includes/plugin-codes/custom-uxbarn-team.php:41
+msgid "Add New Member"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:42
+msgid "New Member"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:43
+msgid "Edit Member"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:44
+msgid "All Members"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:45
+msgid "View"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:46
+msgid "Search Member"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:58
+msgid "team"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:93
+msgid "Team Member Excerpt Setting"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:101
+msgid "Excerpt"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:102
+msgid ""
+"The excerpt or short description of this member. It will only be used in the "
+"team member element. This should be short and concise."
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:128
+msgid "Team Member Meta Info Setting"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:136
+msgid "Position"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:137
+msgid "Enter the position of this member. Example: <em>Co-founder</em>"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:149
+msgid "Enter the email of this member"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:173
+#: ../includes/theme-options.php:442 ../includes/theme-options.php:466
+#: ../includes/theme-options.php:490 ../includes/theme-options.php:514
+#: ../includes/theme-options.php:538 ../includes/theme-options.php:562
+#: ../includes/theme-options.php:586 ../includes/theme-options.php:610
+#: ../includes/theme-options.php:634 ../includes/theme-options.php:658
+#: ../includes/theme-options.php:682
+msgid "Please make sure to put \"http://\" at the front of the URL."
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:180
+msgid "Social Network Setting"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:191
+msgid ""
+"Enter the URL for each social network of this member below. If you want to "
+"manage the team social icon set, please go to \"Settings > UXbarn Team "
+"Options\""
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:208
+#: ../includes/theme-functions.php:313 ../includes/theme-options.php:465
+msgid "Twitter URL"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:220
+#: ../includes/theme-functions.php:314 ../includes/theme-options.php:441
+msgid "Facebook URL"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:232
+#: ../includes/theme-functions.php:315 ../includes/theme-options.php:489
+msgid "Google+ URL"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:244
+#: ../includes/theme-functions.php:316 ../includes/theme-options.php:513
+msgid "LinkedIn URL"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:256
+#: ../includes/theme-functions.php:317 ../includes/theme-options.php:585
+msgid "Dribbble URL"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:268
+#: ../includes/theme-functions.php:318 ../includes/theme-options.php:609
+msgid "Forrst URL"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:280
+#: ../includes/theme-functions.php:319 ../includes/theme-options.php:537
+msgid "Flickr URL"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:317
+#: ../includes/theme-options.php:410
+msgid "URL"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:336
+#, php-format
+msgid ""
+"You have not assigned the ID for the \"%s\" social icon yet. Please go to "
+"\"Settings > UXbarn Team Options\" to manage the custom icon list"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:359
+msgid ""
+"You have not added any custom social icons yet. Please go to \"Settings > "
+"UXbarn Team Options\" to manage the custom icon list"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:389
+msgid "Single Page Image Setting"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:397
+msgid "Upload Single Page Image"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:398
+msgid ""
+"This image will be used in the single page of this team member only. "
+"<strong>Recommended dimension is 314x720</strong>. To upload the member "
+"thumbnail, please use Featured Image."
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:429
+#: ../includes/theme-functions.php:405
+msgid "Twitter"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:430
+#: ../includes/theme-functions.php:404
+msgid "Facebook"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:431
+#: ../includes/theme-functions.php:406
+msgid "Google+"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:432
+#: ../includes/theme-functions.php:407
+msgid "LinkedIn"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:433
+#: ../includes/theme-functions.php:410
+msgid "Dribbble"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:434
+#: ../includes/theme-functions.php:411
+msgid "Forrst"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-team.php:435
+#: ../includes/theme-functions.php:408
+msgid "Flickr"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:45
+msgid "Heading"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:49
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:294
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:431
+#: ../includes/plugin-codes/visual-composer/mapping.php:47
+#: ../includes/plugin-codes/visual-composer/mapping.php:65
+#: ../includes/plugin-codes/visual-composer/mapping.php:219
+#: ../includes/plugin-codes/visual-composer/mapping.php:243
+#: ../includes/plugin-codes/visual-composer/mapping.php:275
+#: ../includes/plugin-codes/visual-composer/mapping.php:538
+#: ../includes/plugin-codes/visual-composer/mapping.php:590
+#: ../includes/plugin-codes/visual-composer/mapping.php:641
+#: ../includes/plugin-codes/visual-composer/mapping.php:748
+#: ../includes/plugin-codes/visual-composer/mapping.php:805
+#: ../includes/plugin-codes/visual-composer/mapping.php:874
+#: ../includes/plugin-codes/visual-composer/mapping.php:879
+#: ../includes/plugin-codes/visual-composer/mapping.php:1108
+#: ../includes/plugin-codes/visual-composer/mapping.php:1221
+#: ../includes/style-customizer/sections/content.php:23
+msgid "Content"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:56
+msgid "Heading text"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:75
+msgid "Choose the heading type."
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:82
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:331
+#: ../includes/plugin-codes/visual-composer/mapping.php:91
+msgid "Alignment"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:85
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:334
+#: ../includes/plugin-codes/visual-composer/mapping.php:94
+#: ../includes/plugin-codes/visual-composer/mapping.php:154
+#: ../includes/plugin-codes/visual-composer/mapping.php:889
+msgid "Left"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:86
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:335
+#: ../includes/plugin-codes/visual-composer/mapping.php:95
+#: ../includes/plugin-codes/visual-composer/mapping.php:155
+msgid "Center"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:87
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:336
+#: ../includes/plugin-codes/visual-composer/mapping.php:96
+#: ../includes/plugin-codes/visual-composer/mapping.php:156
+#: ../includes/plugin-codes/visual-composer/mapping.php:890
+#: ../includes/plugin-codes/visual-composer/mapping.php:912
+msgid "Right"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:89
+msgid "Select text alignment for this heading."
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:96
+msgid "Has line?"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:102
+msgid "Whether to display a line at the bottom of the heading."
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:109
+msgid "Has icon?"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:115
+msgid "Whether to display the icon before heading text."
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:122
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:301
+#: ../includes/plugin-codes/visual-composer/mapping.php:105
+#: ../includes/plugin-codes/visual-composer/mapping.php:934
+msgid "Icon code"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:125
+#: ../includes/plugin-codes/visual-composer/mapping.php:108
+#: ../includes/plugin-codes/visual-composer/mapping.php:937
+#, php-format
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Click here to see all available icons</a>. "
+"Just copy and paste the icon code into the text field. For example: <em>icon-"
+"asterisk</em>. Leave this field blank when not to use icon."
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:136
+msgid "Icon Size"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:139
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:314
+msgid "Specify the size number for the icon (px). Only number is allowed."
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:150
+msgid "Icon Color"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:153
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:324
+msgid "Choose the color."
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:290
+#: ../includes/theme-options.php:424
+msgid "Icon"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:304
+#, php-format
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Click here to see all available icons from "
+"Ionicons</a>. Just copy and paste the icon code into the text field. For "
+"example: <em>icon-asterisk</em>"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:311
+msgid "Size"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:321
+msgid "Color"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:337
+msgid "Float left (will be on the same line with adjacent text block)"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:338
+msgid "Float right (will be on the same line with adjacent text block)"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:340
+msgid "Select the alignment for this icon."
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:426
+msgid "Divider"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:437
+msgid "Style"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:440
+msgid "Thin"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:441
+msgid "Light"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:442
+#: ../includes/style-customizer/customizer-functions.php:148
+msgid "Bold"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:443
+msgid "Thin + Dashed"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:444
+msgid "Light + Dashed"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:445
+msgid "Bold + Dashed"
+msgstr ""
+
+#: ../includes/plugin-codes/custom-uxbarn-vc-extension.php:447
+msgid "Choose the style for divider."
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:164
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:165
+msgid "Install Plugins"
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:166
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:180
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:510
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:181
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:1908
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:182
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:537
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:2120
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:565
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:738
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:1125
+msgid "External Link"
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:1130
+msgid "Private Repository"
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:1133
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:1137
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:1140
+msgid "Required"
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:1140
+msgid "Recommended"
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:1143
+msgid "Not Installed"
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:1145
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:1147
+msgid "Not Updated"
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:1149
+msgid "Active"
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:1343
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:1359
+msgid "Plugin"
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:1360
+msgid "Source"
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:1362
+msgid "Status"
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:1380
+msgid "Install"
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:1381
+msgid "Activate"
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:1606
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:1891
+msgid "Install package not available."
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:1892
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:1893
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:1894
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:1895
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:1896
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:1907
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:2017
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:2018
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:2018
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:2027
+msgid "Show Details"
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:2018
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:2027
+msgid "Hide Details"
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:2019
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:2020
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:2024
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:2025
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:2026
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:2027
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:2028
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../includes/plugin-codes/tgm/class-tgm-plugin-activation.php:2029
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../includes/plugin-codes/uxbarn-testimonials/custom-widgets.php:8
+msgid "[UX] Testimonials"
+msgstr ""
+
+#: ../includes/plugin-codes/uxbarn-testimonials/custom-widgets.php:9
+msgid ""
+"Displays created custom testimonials. This widget is from UXbarn "
+"Testimonials plugin."
+msgstr ""
+
+#: ../includes/plugin-codes/uxbarn-testimonials/custom-widgets.php:15
+msgid "Testimonials"
+msgstr ""
+
+#: ../includes/plugin-codes/uxbarn-testimonials/custom-widgets.php:25
+msgid "Auto rotation:"
+msgstr ""
+
+#: ../includes/plugin-codes/uxbarn-testimonials/custom-widgets.php:27
+#: ../includes/plugin-codes/visual-composer/mapping.php:603
+msgid "Disable"
+msgstr ""
+
+#: ../includes/plugin-codes/uxbarn-testimonials/custom-widgets.php:48
+msgid "Select specific testimonials to be shown:"
+msgstr ""
+
+#: ../includes/plugin-codes/uxbarn-testimonials/custom-widgets.php:50
+msgid "(*Uncheck all will show every testimonials.)"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:41
+msgid "Row"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:51
+#: ../includes/plugin-codes/visual-composer/mapping.php:515
+#: ../includes/plugin-codes/visual-composer/mapping.php:555
+#: ../includes/plugin-codes/visual-composer/mapping.php:608
+#: ../includes/plugin-codes/visual-composer/mapping.php:700
+#: ../includes/plugin-codes/visual-composer/mapping.php:788
+#: ../includes/plugin-codes/visual-composer/mapping.php:859
+#: ../includes/plugin-codes/visual-composer/mapping.php:1380
+#: ../includes/plugin-codes/visual-composer/param-array.php:104
+msgid "Extra class name"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:53
+#: ../includes/plugin-codes/visual-composer/mapping.php:517
+#: ../includes/plugin-codes/visual-composer/mapping.php:557
+#: ../includes/plugin-codes/visual-composer/mapping.php:610
+#: ../includes/plugin-codes/visual-composer/mapping.php:702
+#: ../includes/plugin-codes/visual-composer/mapping.php:790
+#: ../includes/plugin-codes/visual-composer/mapping.php:861
+#: ../includes/plugin-codes/visual-composer/mapping.php:1382
+#: ../includes/plugin-codes/visual-composer/param-array.php:107
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:62
+msgid "Button"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:78
+msgid "Expanded?"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:84
+msgid "Whether to expand the button to fit the width of its containing column."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:98
+msgid "Select the alignment for the button in its containing column."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:126
+#: ../includes/plugin-codes/visual-composer/mapping.php:371
+#: ../includes/plugin-codes/visual-composer/mapping.php:477
+msgid "Media"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:133
+msgid "Select image from media library."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:141
+msgid "Image size"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:144
+msgid "Select the image size you want from the list."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:151
+msgid "Image position"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:157
+msgid "Float left (text will wrap around image)"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:158
+msgid "Float right (text will wrap around image)"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:160
+msgid "Select how this image will be aligned."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:167
+msgid "Has link?"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:173
+msgid "Whether to has a link on the image."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:180
+#: ../includes/plugin-codes/visual-composer/mapping.php:449
+msgid "Link type"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:183
+msgid "Link to normal URL, same window"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:184
+msgid "Link to normal URL on a new window/tab"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:185
+msgid "Link to its own full-size image file showing on lightbox"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:187
+msgid "Specify which type for the target link of this image."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:198
+#: ../includes/plugin-codes/visual-composer/param-array.php:46
+msgid "Target URL"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:201
+msgid ""
+"Specify the target URL once the element is clicked. For example: <em>http://"
+"www.uxbarn.com</em>"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:223
+msgid "Video link"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:226
+msgid ""
+"Enter the URL to your YouTube or Vimeo video here. <br/><br/>For example, "
+"<em>\"http://www.youtube.com/watch?v=G_G8SdXktHg\"</em> for YouTube. Or, <em>"
+"\"http://www.vimeo.com/7449107\"</em> for Vimeo."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:239
+msgid "Message Box"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:247
+msgid "Message box type"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:249
+msgid "Info"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:249
+msgid "Warning"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:249
+msgid "Success"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:249
+msgid "Error"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:250
+msgid "Select message type."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:256
+msgid "Message text"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:258
+msgid "The message goes here..."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:271
+msgid "Google Map"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:281
+msgid "Address"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:284
+msgid ""
+"By default, the theme will use this address field as a primary value for "
+"generating the map. For example: <em>Tillary St., New York, US</em>. <br/"
+"><strong>NOTE:</strong> In case you want to use latitude and logitude values "
+"below, just leave this field blank."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:290
+msgid "Latitude"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:293
+msgid ""
+"Enter the latitude value. <a href=\"http://itouchmap.com/latlong.html\" "
+"target=\"_blank\">Click here to find yours</a>"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:300
+msgid "Logitude"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:303
+msgid ""
+"Enter the longitude value. <a href=\"http://itouchmap.com/latlong.html\" "
+"target=\"_blank\">Click here to find yours</a>"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:310
+msgid "Zoom level"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:328
+msgid "Select the zoom level."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:335
+msgid "Display type"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:338
+msgid "Roadmap"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:339
+msgid "Satellite"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:340
+msgid "Hybrid"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:341
+msgid "Terrain"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:343
+msgid "Choose the display type."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:350
+msgid "Height"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:353
+msgid "Enter the height in pixel unit. Enter only a number."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:367
+msgid "Image Gallery/Slider"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:377
+msgid "Images"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:380
+msgid "Select images."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:390
+msgid "Grid"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:391
+msgid "Slider (fade transition)"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:392
+msgid "Slider (slide transition)"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:394
+msgid "Select which type of the gallery to be displayed."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:401
+msgid "Grid style"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:404
+msgid "Circle thumbnail"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:405
+msgid "Square thumbnail"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:407
+msgid "Select the style for grid gallery."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:418
+msgid "Thumbnail size"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:421
+msgid ""
+"Select which size to be used for the thumbnails. Anyway, the image will be "
+"scaled depending on its original size and containing column. If you are not "
+"sure which one to use, try <em>Original size</em>."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:452
+msgid "Display full image on lightbox"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:453
+msgid "Display full image on new window/tab"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:454
+msgid "No link"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:456
+msgid "Select the type of the link for each gallery thumbnail."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:475
+msgid "Flickr Widget"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:481
+#: ../includes/plugin-codes/visual-composer/mapping.php:595
+#: ../includes/plugin-codes/visual-composer/mapping.php:752
+#: ../includes/plugin-codes/visual-composer/mapping.php:809
+#: ../includes/plugin-codes/visual-composer/mapping.php:1366
+msgid "Widget title"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:483
+#: ../includes/plugin-codes/visual-composer/mapping.php:597
+#: ../includes/plugin-codes/visual-composer/mapping.php:754
+#: ../includes/plugin-codes/visual-composer/mapping.php:811
+#: ../includes/plugin-codes/visual-composer/mapping.php:1368
+msgid "What text use as a widget title. Leave blank if no title is needed."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:487
+msgid "Flickr ID"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:490
+#, php-format
+msgid "To find your flickID visit %s."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:494
+msgid "Number of photos"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:497
+msgid "Number of photos."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:503
+msgid "User"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:503
+msgid "Group"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:504
+msgid "Photo stream type."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:508
+msgid "Display"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:510
+msgid "Latest"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:510
+#: ../includes/plugin-codes/visual-composer/param-array.php:136
+msgid "Random"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:511
+msgid "Photo order."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:533
+msgid "Tabs"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:568
+#: ../includes/plugin-codes/visual-composer/mapping.php:621
+msgid "Tab 1"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:569
+#: ../includes/plugin-codes/visual-composer/mapping.php:622
+msgid "Tab 2"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:584
+msgid "Vertical Tabs"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:601
+msgid "Auto rotate slides"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:604
+msgid "Auto rotate slides each X seconds."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:636
+msgid "Accordion / Toggle"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:651
+msgid "Use as"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:653
+msgid ""
+"Select mode for this element. <strong>NOTE:</strong> If you select \"Toggle"
+"\", make sure to have only one section for the element."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:655
+msgid "Accordion"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:656
+msgid "Toggle"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:661
+msgid "Collapsible?"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:663
+msgid "Whether to make each section collapsible."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:675
+msgid "Active section"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:677
+msgid ""
+"Enter a section number that you want it to expanded by default. For example, "
+"enter <em>2</em> if you want to make the second section active. Or, just "
+"enter <em>0</em> to make all sections collapsed on page load (in this case, "
+"you need to select the Collapsible value above as \"Yes\")."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:686
+msgid "Toggle expanded?"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:688
+msgid "Whether to make it expanded (active) by default."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:710
+msgid "Add section"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:710
+msgid "Add section (for accordion)"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:714
+#: ../vc_templates/vc_accordion_tab.php:5
+msgid "Section"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:719
+msgid "Accordion/Toggle Section"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:729
+msgid "Section title."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:742
+#: ../includes/plugin-codes/visual-composer/mapping.php:836
+msgid "Grey"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:742
+#: ../includes/plugin-codes/visual-composer/mapping.php:834
+#: ../includes/plugin-codes/visual-composer/param-array.php:220
+msgid "Blue"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:742
+msgid "Turquoise"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:742
+#: ../includes/plugin-codes/visual-composer/mapping.php:835
+#: ../includes/plugin-codes/visual-composer/param-array.php:218
+msgid "Green"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:742
+msgid "Orange"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:742
+#: ../includes/plugin-codes/visual-composer/mapping.php:832
+#: ../includes/plugin-codes/visual-composer/param-array.php:219
+msgid "Red"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:742
+msgid "Black"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:744
+msgid "Pie chart"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:759
+msgid "Pie value"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:761
+msgid "Input graph value here. Witihn a range 0-100."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:767
+msgid "Pie label value"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:769
+msgid "Input integer value for label. If empty \"Pie value\" will be used."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:774
+#: ../includes/plugin-codes/visual-composer/mapping.php:823
+msgid "Units"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:776
+#: ../includes/plugin-codes/visual-composer/mapping.php:825
+msgid ""
+"Enter measurement units (if needed) Eg. %, px, points, etc. Graph value and "
+"unit will be appended to the graph title."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:780
+#: ../includes/plugin-codes/visual-composer/mapping.php:829
+msgid "Bar color"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:783
+msgid "Select pie chart color."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:802
+msgid "Progress Bar"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:815
+msgid "Graphic values"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:817
+msgid ""
+"Input graph values here. Divide values with linebreaks (Enter). Example: 90|"
+"Development"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:833
+#: ../includes/plugin-codes/visual-composer/param-array.php:221
+msgid "Yellow"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:837
+msgid "Gold"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:838
+msgid "Pink"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:839
+msgid "Purple"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:840
+msgid "Custom Color"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:841
+msgid "Select bar color."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:846
+msgid "Bar custom color"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:848
+msgid "Select custom background color for bars."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:871
+msgid "Call-to-Action Box"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:881
+#, php-format
+msgid "Welcome! This is an example text for CTA box. Grab it now for 20% off!"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:882
+msgid "Enter your content."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:886
+msgid "Color line"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:891
+msgid "Top"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:892
+#: ../includes/plugin-codes/visual-composer/mapping.php:913
+msgid "Bottom"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:893
+msgid "None"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:899
+msgid "Display button?"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:909
+msgid "Button position"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1104
+msgid "Blog Posts"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1114
+msgid "Blog categories"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1117
+msgid "Select the categories from the list."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1124
+msgid "Maximum number of items to be displayed"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1127
+msgid ""
+"Enter a number to limit the max number of items to be listed. Leave it blank "
+"to show all items from the selected categories above. Only number is allowed."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1137
+msgid "Columns Grid"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1138
+msgid "List Items"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1140
+msgid "Select the display type."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1147
+msgid "Columns"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1150
+msgid "3 Columns"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1151
+msgid "4 Columns"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1153
+msgid "Select the number of columns."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1164
+msgid "Grid item display"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1167
+msgid "Thumbnail + Title + Excerpt"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1168
+msgid "Title + Thumbnail + Excerpt"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1170
+msgid "Thumbnail + Title"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1172
+msgid "Select the display for each item."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1184
+msgid "Display thumbnail?"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1190
+msgid "Whether to display post thumbnails."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1197
+msgid "Display post meta info?"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1203
+msgid "Whether to display the meta info of each post (date and comment count)"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1218
+msgid "Search Box"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1228
+msgid "Search"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1229
+msgid "Enter the title. Leave it blank to hide it."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1243
+#: ../includes/plugin-codes/visual-composer/mapping.php:1252
+msgid "Raw HTML"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1246
+#: ../includes/plugin-codes/visual-composer/mapping.php:1272
+msgid "Code"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1255
+msgid "Enter your HTML content."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1269
+msgid "Raw JS"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1278
+msgid "Raw js"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1281
+msgid "Enter your JS code."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1313
+msgid "Contact Form 7"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1315
+#: ../includes/plugin-codes/visual-composer/mapping.php:1362
+#: ../includes/plugin-codes/visual-composer/mapping.php:1408
+#: ../includes/style-customizer/sections/others.php:23
+msgid "Others"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1319
+msgid "Form title"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1322
+msgid "What text use as form title. Leave blank if no title is needed."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1326
+msgid "Select contact form"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1329
+msgid "Choose previously created contact form from the drop down list."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1360
+msgid "Layer Slider"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1372
+msgid "LayerSlider ID"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1376
+msgid "Select your LayerSlider."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1394
+msgid "No Gravity forms found."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1398
+msgid "Select a form to display."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1405
+msgid "Gravity Form"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1412
+msgid "Form"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1415
+msgid "Select a form to add it to your post or page."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1420
+msgid "Display Form Title"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1423
+msgid "Would you like to display the forms title?"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1428
+msgid "Display Form Description"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1431
+msgid "Would you like to display the forms description?"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1436
+msgid "Enable AJAX?"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1439
+msgid ""
+"Enable AJAX submission? <strong>Note:</strong> If you experience some issue "
+"in the form, try disabling this."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1444
+msgid "Tab Index"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/mapping.php:1446
+msgid ""
+"(Optional) Specify the starting tab index for the fields of this form. Leave "
+"blank if you're not sure what this is."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:15
+msgid "CSS Animation"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:20
+msgid "Top to bottom"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:21
+msgid "Bottom to top"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:22
+msgid "Left to right"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:23
+msgid "Right to left"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:24
+msgid "Appear from center"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:26
+msgid ""
+"Select animation type if you want this element to be animated when it enters "
+"into the browsers viewport. Note: Works only in modern browsers."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:49
+msgid ""
+"Specify the target URL once the element is clicked. For example: <em>http://"
+"www.uxbarn.com</em>. "
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:73
+msgid "Open new window?"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:79
+#, php-format
+msgid "Whether to open new window/tab when an element is clicked. %s"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:128
+msgid "Order by"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:131
+msgid "ID"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:133
+msgid "Slug"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:134
+msgid "Published Date"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:135
+msgid "Modified Date"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:138
+msgid ""
+"Select the which parameter to be used for ordering. <a href=\"http://codex."
+"wordpress.org/Class_Reference/WP_Query#Order_.26_Orderby_Parameters\" target="
+"\"_blank\">See more info here</a>"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:159
+msgid "Order"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:162
+msgid "Ascending"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:163
+msgid "Descending"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:165
+msgid ""
+"<a href=\"http://codex.wordpress.org/Class_Reference/"
+"WP_Query#Order_.26_Orderby_Parameters\" target=\"_blank\">See more info "
+"here</a>"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:186
+msgid "Button text"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:188
+msgid "Click me"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:214
+msgid "Button color"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:217
+#: ../includes/plugin-codes/visual-composer/param-array.php:313
+msgid "Default"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:222
+msgid "Custom"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:224
+#, php-format
+msgid "Choose the button color. %s"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:249
+msgid "Custom color"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:277
+msgid "Button size"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:280
+msgid "Default (medium)"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:281
+msgid "Tiny"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:282
+msgid "Small"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:283
+msgid "Large"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:285
+msgid "Choose the size."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:310
+msgid "Button border style"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:314
+msgid "Radius"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:315
+msgid "Round"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:317
+msgid "Choose the border style for the button."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:342
+msgid "Auto rotation duration"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:345
+msgid "Disable auto rotation"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:364
+msgid ""
+"Select how many seconds to stay on current slide before rotating to the next "
+"one."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:389
+msgid "Show bullets?"
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:395
+msgid "Whether to display the slider's bullets."
+msgstr ""
+
+#: ../includes/plugin-codes/visual-composer/param-array.php:415
+msgid "Original size"
+msgstr ""
+
+#: ../includes/style-customizer/custom-controls.php:60
+msgid "- Font Family -"
+msgstr ""
+
+#: ../includes/style-customizer/custom-controls.php:87
+msgid "- Size -"
+msgstr ""
+
+#: ../includes/style-customizer/custom-controls.php:114
+msgid "- Style -"
+msgstr ""
+
+#: ../includes/style-customizer/custom-controls.php:141
+msgid "- Weight -"
+msgstr ""
+
+#: ../includes/style-customizer/custom-controls.php:168
+msgid "- Line Height -"
+msgstr ""
+
+#: ../includes/style-customizer/custom-controls.php:195
+msgid "- Repeat -"
+msgstr ""
+
+#: ../includes/style-customizer/custom-controls.php:222
+msgid "- Position -"
+msgstr ""
+
+#: ../includes/style-customizer/customizer-functions.php:37
+#: ../includes/style-customizer/customizer-functions.php:38
+msgid "Style Customizer"
+msgstr ""
+
+#: ../includes/style-customizer/customizer-functions.php:129
+msgid "Italic"
+msgstr ""
+
+#: ../includes/style-customizer/customizer-functions.php:130
+msgid "Oblique"
+msgstr ""
+
+#: ../includes/style-customizer/customizer-functions.php:131
+#: ../includes/style-customizer/customizer-functions.php:160
+#: ../includes/style-customizer/customizer-functions.php:210
+msgid "Inherit"
+msgstr ""
+
+#: ../includes/style-customizer/customizer-functions.php:149
+msgid "Bolder"
+msgstr ""
+
+#: ../includes/style-customizer/customizer-functions.php:150
+msgid "Lighter"
+msgstr ""
+
+#: ../includes/style-customizer/customizer-functions.php:206
+msgid "No Repeat"
+msgstr ""
+
+#: ../includes/style-customizer/customizer-functions.php:207
+msgid "Repeat All"
+msgstr ""
+
+#: ../includes/style-customizer/customizer-functions.php:208
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: ../includes/style-customizer/customizer-functions.php:209
+msgid "Repeat Vertically"
+msgstr ""
+
+#: ../includes/style-customizer/customizer-functions.php:226
+msgid "Left Top"
+msgstr ""
+
+#: ../includes/style-customizer/customizer-functions.php:227
+msgid "Left Center"
+msgstr ""
+
+#: ../includes/style-customizer/customizer-functions.php:228
+msgid "Left Bottom"
+msgstr ""
+
+#: ../includes/style-customizer/customizer-functions.php:229
+msgid "Right Top"
+msgstr ""
+
+#: ../includes/style-customizer/customizer-functions.php:230
+msgid "Right Center"
+msgstr ""
+
+#: ../includes/style-customizer/customizer-functions.php:231
+msgid "Right Bottom"
+msgstr ""
+
+#: ../includes/style-customizer/customizer-functions.php:232
+msgid "Center Top"
+msgstr ""
+
+#: ../includes/style-customizer/customizer-functions.php:233
+msgid "Center Center"
+msgstr ""
+
+#: ../includes/style-customizer/customizer-functions.php:234
+msgid "Center Bottom"
+msgstr ""
+
+#: ../includes/style-customizer/sections/content.php:24
+msgid "Customize the styles of content area."
+msgstr ""
+
+#: ../includes/style-customizer/sections/content.php:47
+msgid "Content Heading Color (R)"
+msgstr ""
+
+#: ../includes/style-customizer/sections/content.php:63
+msgid "Content Text Color (R)"
+msgstr ""
+
+#: ../includes/style-customizer/sections/content.php:94
+msgid "Use custom color for content link (R)"
+msgstr ""
+
+#: ../includes/style-customizer/sections/content.php:105
+#: ../includes/style-customizer/sections/content.php:297
+#: ../includes/style-customizer/sections/menu.php:246
+#: ../includes/style-customizer/sections/sidebar.php:87
+msgid ""
+"By default, the color depends on accent color that you have set in \"Global"
+"\" section. If you tick this checkbox, the theme will use below option for "
+"the color instead."
+msgstr ""
+
+#: ../includes/style-customizer/sections/content.php:122
+msgid "Content Link Color (R)"
+msgstr ""
+
+#: ../includes/style-customizer/sections/content.php:134
+msgid ""
+"Only apply to general text hyperlinks of the content area. (You need to "
+"check the above checkbox to make this option working.)"
+msgstr ""
+
+#: ../includes/style-customizer/sections/content.php:176
+msgid "Content Background Color"
+msgstr ""
+
+#: ../includes/style-customizer/sections/content.php:190
+msgid "Content Background Color Opacity"
+msgstr ""
+
+#: ../includes/style-customizer/sections/content.php:204
+msgid "Content Background Image"
+msgstr ""
+
+#: ../includes/style-customizer/sections/content.php:217
+msgid "Content Background Image Attributes"
+msgstr ""
+
+#: ../includes/style-customizer/sections/content.php:286
+msgid "Use custom color for content scrollbar (R)"
+msgstr ""
+
+#: ../includes/style-customizer/sections/content.php:312
+msgid "Content Scrollbar Color (R)"
+msgstr ""
+
+#: ../includes/style-customizer/sections/global.php:23
+msgid "Global"
+msgstr ""
+
+#: ../includes/style-customizer/sections/global.php:24
+msgid "Customize the global styles"
+msgstr ""
+
+#: ../includes/style-customizer/sections/global.php:47
+msgid "Accent Color (R)"
+msgstr ""
+
+#: ../includes/style-customizer/sections/global.php:60
+msgid "Select the accent color for the theme."
+msgstr ""
+
+#: ../includes/style-customizer/sections/global.php:101
+msgid "Primary Font"
+msgstr ""
+
+#: ../includes/style-customizer/sections/global.php:128
+msgid "Secondary Font"
+msgstr ""
+
+#: ../includes/style-customizer/sections/global.php:180
+msgid "Site Background Color"
+msgstr ""
+
+#: ../includes/style-customizer/sections/global.php:193
+msgid ""
+"You will see this background color when the fullscreen slider is loading."
+msgstr ""
+
+#: ../includes/style-customizer/sections/menu.php:23
+msgid "Customize the menu styles"
+msgstr ""
+
+#: ../includes/style-customizer/sections/menu.php:47
+msgid "Menu Color (R)"
+msgstr ""
+
+#: ../includes/style-customizer/sections/menu.php:59
+msgid "Adjust text color for menu items."
+msgstr ""
+
+#: ../includes/style-customizer/sections/menu.php:73
+msgid "Use custom color for hovered and active menu (R)"
+msgstr ""
+
+#: ../includes/style-customizer/sections/menu.php:84
+msgid ""
+"By default, the colors depend on accent color that you have set in \"Global"
+"\" section. If you tick this checkbox, the theme will use below options for "
+"the colors instead."
+msgstr ""
+
+#: ../includes/style-customizer/sections/menu.php:99
+msgid "Hovered Menu Color (R)"
+msgstr ""
+
+#: ../includes/style-customizer/sections/menu.php:111
+msgid ""
+"Adjust text color for hovered menu items. (You need to check the above "
+"checkbox to make this option working.)"
+msgstr ""
+
+#: ../includes/style-customizer/sections/menu.php:126
+msgid "Active Menu Color (R)"
+msgstr ""
+
+#: ../includes/style-customizer/sections/menu.php:138
+msgid ""
+"Adjust text color for active menu items. (You need to check the above "
+"checkbox to make this option working.)"
+msgstr ""
+
+#: ../includes/style-customizer/sections/menu.php:180
+msgid "Submenu Background Color (R)"
+msgstr ""
+
+#: ../includes/style-customizer/sections/menu.php:192
+msgid "Adjust the background color of submenu panel."
+msgstr ""
+
+#: ../includes/style-customizer/sections/menu.php:209
+msgid "Submenu Color (R)"
+msgstr ""
+
+#: ../includes/style-customizer/sections/menu.php:221
+msgid "Adjust text color for submenu items."
+msgstr ""
+
+#: ../includes/style-customizer/sections/menu.php:235
+msgid "Use custom color for hovered submenu (R)"
+msgstr ""
+
+#: ../includes/style-customizer/sections/menu.php:263
+msgid "Hovered Submenu Color (R)"
+msgstr ""
+
+#: ../includes/style-customizer/sections/menu.php:275
+msgid ""
+"Adjust text color for hovered submenu items. (You need to check the above "
+"checkbox to make this option working.)"
+msgstr ""
+
+#: ../includes/style-customizer/sections/others.php:24
+msgid "Customize the any other styles"
+msgstr ""
+
+#: ../includes/style-customizer/sections/others.php:47
+msgid "Custom CSS (R)"
+msgstr ""
+
+#: ../includes/style-customizer/sections/others.php:59
+msgid ""
+"<strong>Tip:</strong> If you are using a correct CSS selector but your "
+"custom CSS still doesn't work, try putting \"!important\" tag right after "
+"your CSS property. <a href=\"http://webdesign.about.com/od/css/f/"
+"blcssfaqimportn.htm\" target=\"_blank\">Click here to learn more about \"!"
+"important\"</a>.<p><strong>Note:</strong> After entering the custom CSS, "
+"wait for the preview screen to refresh to see your changes.</p>"
+msgstr ""
+
+#: ../includes/style-customizer/sections/others.php:100
+msgid "Reset Box (R)"
+msgstr ""
+
+#: ../includes/style-customizer/sections/others.php:112
+msgid ""
+"If you want to reset all styles to the default, type \"<strong>reset_styles</"
+"strong>\" into the textbox above and wait until you notice the preview is "
+"refreshed. <p><strong style=\"color: red\">*** After finished typing, the "
+"styles will be reset immediately so please be careful using this!</strong></"
+"p><p><strong>Note:</strong> The style options and preview screen will not be "
+"updated immediately after you finished typing or save, please reload the "
+"page or close this Style Customizer and re-open it again.</p>"
+msgstr ""
+
+#: ../includes/style-customizer/sections/page-intro.php:21
+msgid "Page Intro"
+msgstr ""
+
+#: ../includes/style-customizer/sections/page-intro.php:22
+msgid "Customize the styles of page intro."
+msgstr ""
+
+#: ../includes/style-customizer/sections/page-intro.php:46
+msgid "Intro Title Color"
+msgstr ""
+
+#: ../includes/style-customizer/sections/page-intro.php:62
+msgid "Intro Body Color"
+msgstr ""
+
+#: ../includes/style-customizer/sections/readme.php:8
+msgid "*** Read Me First ***"
+msgstr ""
+
+#: ../includes/style-customizer/sections/readme.php:20
+msgid ""
+"<strong>Welcome to Style Customizer!</strong><p>Here are some guidelines:</"
+"p><ul id=\"ux-customizer-readme\"><li>The customizer is categorized into "
+"sections. You can use each tab section for customizing the styles and see "
+"the preview on the right.</li><li>The options that end with <strong>(R)</"
+"strong> means that they need to reload the preview screen to see your "
+"changes. So wait a second to see the result.</li><li>In case you want to "
+"adjust anything more than provided options, please apply your CSS in the "
+"\"Custom CSS\" box on the \"Others\" section.</li><li>To use Google Fonts, "
+"close this customizer then go to \"Theme Options > Google Fonts\" to add the "
+"fonts you like and they will be available in the font select lists in the "
+"customizer.</li></ul>"
+msgstr ""
+
+#: ../includes/style-customizer/sections/side-panel.php:23
+msgid "Side Panel"
+msgstr ""
+
+#: ../includes/style-customizer/sections/side-panel.php:24
+msgid "Customize the styles of side panel"
+msgstr ""
+
+#: ../includes/style-customizer/sections/side-panel.php:45
+msgid "Site Logo (R)"
+msgstr ""
+
+#: ../includes/style-customizer/sections/side-panel.php:55
+msgid "If not set, site title will display."
+msgstr ""
+
+#: ../includes/style-customizer/sections/side-panel.php:96
+msgid "Site Title Color"
+msgstr ""
+
+#: ../includes/style-customizer/sections/side-panel.php:108
+msgid "This color is for site title (if the logo image is not used)."
+msgstr ""
+
+#: ../includes/style-customizer/sections/side-panel.php:125
+msgid "Site Tagline Color"
+msgstr ""
+
+#: ../includes/style-customizer/sections/side-panel.php:137
+msgid "This color is for the site tagline."
+msgstr ""
+
+#: ../includes/style-customizer/sections/side-panel.php:178
+msgid "Background Color"
+msgstr ""
+
+#: ../includes/style-customizer/sections/side-panel.php:192
+msgid "Background Color Opacity"
+msgstr ""
+
+#: ../includes/style-customizer/sections/side-panel.php:206
+msgid "Background Image"
+msgstr ""
+
+#: ../includes/style-customizer/sections/side-panel.php:219
+msgid "Background Image Attributes"
+msgstr ""
+
+#: ../includes/style-customizer/sections/sidebar.php:21
+msgid "Sidebar"
+msgstr ""
+
+#: ../includes/style-customizer/sections/sidebar.php:22
+msgid "Customize the styles of sidebar area."
+msgstr ""
+
+#: ../includes/style-customizer/sections/sidebar.php:46
+msgid "Sidebar Heading Color"
+msgstr ""
+
+#: ../includes/style-customizer/sections/sidebar.php:62
+msgid "Sidebar Text Color (R)"
+msgstr ""
+
+#: ../includes/style-customizer/sections/sidebar.php:76
+msgid "Use custom color for sidebar link (R)"
+msgstr ""
+
+#: ../includes/style-customizer/sections/sidebar.php:103
+msgid "Sidebar Link Color (R)"
+msgstr ""
+
+#: ../includes/style-customizer/sections/sidebar.php:115
+msgid ""
+"Only apply to general text hyperlinks. (You need to check the above checkbox "
+"to make this option working.)"
+msgstr ""
+
+#: ../includes/theme-functions.php:175
+msgid "Main Menu"
+msgstr ""
+
+#: ../includes/theme-functions.php:191 ../includes/theme-options.php:256
+msgid "Blog Sidebar"
+msgstr ""
+
+#: ../includes/theme-functions.php:193
+msgid "Blog and archive page widget area."
+msgstr ""
+
+#: ../includes/theme-functions.php:203
+msgid "Search Result Sidebar"
+msgstr ""
+
+#: ../includes/theme-functions.php:205
+msgid "Search result widget area."
+msgstr ""
+
+#: ../includes/theme-functions.php:215
+msgid "Page Sidebar"
+msgstr ""
+
+#: ../includes/theme-functions.php:217
+msgid "Default page widget area."
+msgstr ""
+
+#: ../includes/theme-functions.php:262
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../includes/theme-functions.php:409
+msgid "Behance"
+msgstr ""
+
+#: ../includes/theme-functions.php:412
+msgid "Vimeo"
+msgstr ""
+
+#: ../includes/theme-functions.php:413
+msgid "YouTube"
+msgstr ""
+
+#: ../includes/theme-functions.php:414
+msgid "Tumblr"
+msgstr ""
+
+#: ../includes/theme-functions.php:415
+msgid "Github"
+msgstr ""
+
+#: ../includes/theme-functions.php:416
+msgid "RSS"
+msgstr ""
+
+#: ../includes/theme-functions.php:684 ../template-blog-meta.php:63
+msgid "0 Comment"
+msgstr ""
+
+#: ../includes/theme-functions.php:686
+msgid " Comments"
+msgstr ""
+
+#: ../includes/theme-options.php:29
+msgid "General"
+msgstr ""
+
+#: ../includes/theme-options.php:33
+msgid "Fullscreen Slider"
+msgstr ""
+
+#: ../includes/theme-options.php:37
+msgid "Blog"
+msgstr ""
+
+#: ../includes/theme-options.php:41
+msgid "Social Network"
+msgstr ""
+
+#: ../includes/theme-options.php:45
+msgid "Google Fonts"
+msgstr ""
+
+#: ../includes/theme-options.php:49
+msgid "WPML Plugin"
+msgstr ""
+
+#: ../includes/theme-options.php:58
+msgid "Upload Favicon"
+msgstr ""
+
+#: ../includes/theme-options.php:59
+msgid ""
+"Favicon will be displayed on the address bar and tab of the browser. Click "
+"the icon to upload the image or if you already know the URL of the image, "
+"just paste it to the box."
+msgstr ""
+
+#: ../includes/theme-options.php:71
+msgid "Display Tagline?"
+msgstr ""
+
+#: ../includes/theme-options.php:72
+msgid "Whether to display the site tagline under the logo."
+msgstr ""
+
+#: ../includes/theme-options.php:84
+msgid "Enable Lightbox for WordPress Gallery?"
+msgstr ""
+
+#: ../includes/theme-options.php:85
+msgid ""
+"Whether to enable lightbox feature for WordPress gallery shortcode. <br/><br/"
+"><strong>Note:</strong> Also make sure that you already set the \"Link To\" "
+"option to \"Media File\" in your gallery shortcode."
+msgstr ""
+
+#: ../includes/theme-options.php:97
+msgid "Enable Page Comment?"
+msgstr ""
+
+#: ../includes/theme-options.php:98
+msgid ""
+"Whether to enable the comment function for all Page by default.<br/><br/"
+">When you have enabled it, please make sure that each Page is also marked as "
+"\"Allow Comments\". You can find that mark from the Quick Edit menu of the "
+"Page."
+msgstr ""
+
+#: ../includes/theme-options.php:110
+msgid "Copyright Text"
+msgstr ""
+
+#: ../includes/theme-options.php:111
+msgid ""
+"This copyright text will be displayed in the side panel.<br/><br/"
+"><strong>Important: </strong>If you use some HTML tag like anchor tag for a "
+"link, make sure to have the opening and closing tag properly."
+msgstr ""
+
+#: ../includes/theme-options.php:123
+msgid "Upload Background Image for 404 Template"
+msgstr ""
+
+#: ../includes/theme-options.php:124
+msgid ""
+"Upload a fullscreen background image for 404 template. Recommended size is "
+"\"2048x1365\"."
+msgstr ""
+
+#: ../includes/theme-options.php:139
+msgid "Upload Background Image for Search Result Template"
+msgstr ""
+
+#: ../includes/theme-options.php:140
+msgid ""
+"Upload a fullscreen background image for search result template. Recommended "
+"size is \"2048x1365\"."
+msgstr ""
+
+#: ../includes/theme-options.php:155
+msgid "Upload Background Image for Portfolio Category Template"
+msgstr ""
+
+#: ../includes/theme-options.php:156
+msgid ""
+"Upload a fullscreen background image for portfolio category template. "
+"Recommended size is \"2048x1365\"."
+msgstr ""
+
+#: ../includes/theme-options.php:176
+msgid "Transition Effect"
+msgstr ""
+
+#: ../includes/theme-options.php:177
+msgid "Select the transition for the slider."
+msgstr ""
+
+#: ../includes/theme-options.php:188
+msgid "Fade"
+msgstr ""
+
+#: ../includes/theme-options.php:193
+msgid "Slide"
+msgstr ""
+
+#: ../includes/theme-options.php:198
+msgid "Cover Fade"
+msgstr ""
+
+#: ../includes/theme-options.php:203
+msgid "Uncover Fade"
+msgstr ""
+
+#: ../includes/theme-options.php:211
+msgid "Transition Speed"
+msgstr ""
+
+#: ../includes/theme-options.php:212
+msgid ""
+"Enter a number of how fast you want the transition to animate, in "
+"milliseconds."
+msgstr ""
+
+#: ../includes/theme-options.php:224
+msgid "Enable Auto Rotation?"
+msgstr ""
+
+#: ../includes/theme-options.php:225
+msgid "Whether to enable the auto rotation mode for the slider."
+msgstr ""
+
+#: ../includes/theme-options.php:237
+msgid "Rotation Delay"
+msgstr ""
+
+#: ../includes/theme-options.php:238
+msgid ""
+"Enter a number of how long to stay on the current slide before rotating to "
+"the next one, in milliseconds."
+msgstr ""
+
+#: ../includes/theme-options.php:257
+msgid ""
+"Select how the blog sidebar displayed on the blog page (Posts page). You can "
+"manage its widgets in \"Appearance > Widgets > Blog Sidebar\""
+msgstr ""
+
+#: ../includes/theme-options.php:268
+msgid "Hide blog sidebar"
+msgstr ""
+
+#: ../includes/theme-options.php:286
+msgid "Override Post Meta Info?"
+msgstr ""
+
+#: ../includes/theme-options.php:287
+msgid ""
+"Whether to override the meta info custom fields of all individual posts with "
+"this global setting."
+msgstr ""
+
+#: ../includes/theme-options.php:370
+msgid "Social Icon Set"
+msgstr ""
+
+#: ../includes/theme-options.php:371
+msgid ""
+"Select whether to use the default built-in set or define your own set for "
+"social icons."
+msgstr ""
+
+#: ../includes/theme-options.php:382
+msgid "Default Set"
+msgstr ""
+
+#: ../includes/theme-options.php:387
+msgid "Custom Set"
+msgstr ""
+
+#: ../includes/theme-options.php:395
+msgid "Custom Social Network Icons"
+msgstr ""
+
+#: ../includes/theme-options.php:396
+msgid ""
+"You can use this option to add your own list of social network icon. Just "
+"click \"Add New\" button, enter the title, URL and upload the icon image. "
+"You can also rearrange the positions using drag-and-drop feature here."
+msgstr ""
+
+#: ../includes/theme-options.php:411
+msgid ""
+"Enter the URL for this social icon. Please make sure to put \"http://\" at "
+"the front of the URL."
+msgstr ""
+
+#: ../includes/theme-options.php:425
+msgid "Upload an image for this social icon."
+msgstr ""
+
+#: ../includes/theme-options.php:453
+msgid "Facebook Icon"
+msgstr ""
+
+#: ../includes/theme-options.php:454 ../includes/theme-options.php:478
+#: ../includes/theme-options.php:502 ../includes/theme-options.php:526
+#: ../includes/theme-options.php:550 ../includes/theme-options.php:574
+#: ../includes/theme-options.php:598 ../includes/theme-options.php:622
+#: ../includes/theme-options.php:646 ../includes/theme-options.php:670
+#: ../includes/theme-options.php:694
+msgid "You can leave it blank to use theme's default icon."
+msgstr ""
+
+#: ../includes/theme-options.php:477
+msgid "Twitter Icon"
+msgstr ""
+
+#: ../includes/theme-options.php:501
+msgid "Google+ Icon"
+msgstr ""
+
+#: ../includes/theme-options.php:525
+msgid "LinkedIn Icon"
+msgstr ""
+
+#: ../includes/theme-options.php:549
+msgid "Flickr Icon"
+msgstr ""
+
+#: ../includes/theme-options.php:561
+msgid "Behance URL"
+msgstr ""
+
+#: ../includes/theme-options.php:573
+msgid "Behance Icon"
+msgstr ""
+
+#: ../includes/theme-options.php:597
+msgid "Dribbble Icon"
+msgstr ""
+
+#: ../includes/theme-options.php:621
+msgid "Forrst Icon"
+msgstr ""
+
+#: ../includes/theme-options.php:633
+msgid "Vimeo URL"
+msgstr ""
+
+#: ../includes/theme-options.php:645
+msgid "Vimeo Icon"
+msgstr ""
+
+#: ../includes/theme-options.php:657
+msgid "YouTube URL"
+msgstr ""
+
+#: ../includes/theme-options.php:669
+msgid "YouTube Icon"
+msgstr ""
+
+#: ../includes/theme-options.php:681
+msgid "RSS URL"
+msgstr ""
+
+#: ../includes/theme-options.php:693
+msgid "RSS Icon"
+msgstr ""
+
+#: ../includes/theme-options.php:710
+msgid "Google Fonts Loader"
+msgstr ""
+
+#: ../includes/theme-options.php:711
+msgid ""
+"To enable Google Fonts selection, please go to <a href=\"http://www.google."
+"com/webfonts#\" target=\"_blank\">Google Web Fonts website</a>, select the "
+"fonts you like, copy the family list then paste them to this textbox. After "
+"that simply press \"Save Changes\" button and the fonts will be loaded to "
+"all font select lists in Style Customizer.<br/><br/>Please read more detail "
+"about this in the provided documentation under the section of \"Getting "
+"Started > Google Fonts\".</p>"
+msgstr ""
+
+#: ../includes/theme-options.php:722
+msgid "Character Sets"
+msgstr ""
+
+#: ../includes/theme-options.php:723
+msgid ""
+"Choose the character sets you want. If you have no idea what is this, just "
+"leave them unchecked."
+msgstr ""
+
+#: ../includes/theme-options.php:734
+msgid "Latin (latin)"
+msgstr ""
+
+#: ../includes/theme-options.php:739
+msgid "Latin Extended (latin-ext)"
+msgstr ""
+
+#: ../includes/theme-options.php:744
+msgid "Cyrillic (cyrillic)"
+msgstr ""
+
+#: ../includes/theme-options.php:749
+msgid "Cyrillic Extended (cyrillic-ext)"
+msgstr ""
+
+#: ../includes/theme-options.php:754
+msgid "Greek (greek)"
+msgstr ""
+
+#: ../includes/theme-options.php:759
+msgid "Greek Extended (greek-ext)"
+msgstr ""
+
+#: ../includes/theme-options.php:773
+msgid "Display WPML Language Selector?"
+msgstr ""
+
+#: ../includes/theme-options.php:774
+msgid ""
+"If WPML is activated, use this option to display the WPML language selector "
+"in the header location defined by theme. <br/><br/><strong>Note: </"
+"strong>Theme will use the configuration that you set in \"WPML > Languages > "
+"Language switcher options\"."
+msgstr ""
+
+#: ../index.php:64
+msgid "Sticky Post"
+msgstr ""
+
+#: ../index.php:90
+msgid "Read more"
+msgstr ""
+
+#: ../index.php:107
+msgid "Sorry, there are no posts available."
+msgstr ""
+
+#: ../search.php:60
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: ../search.php:62
+msgid "Please try other categories or search again."
+msgstr ""
+
+#: ../searchform-404.php:4
+msgid "Type and hit enter to search ..."
+msgstr ""
+
+#: ../searchform.php:3 ../vc_templates/vc_wp_search.php:15
+msgid "Type and hit enter ..."
+msgstr ""
+
+#: ../single.php:67
+msgid "Pages:"
+msgstr ""
+
+#: ../single.php:118
+msgid "About "
+msgstr ""
+
+#: ../single.php:171
+msgid "Tags"
+msgstr ""
+
+#: ../template-blog-meta.php:55
+msgid "By"
+msgstr ""
+
+#: ../template-intro.php:12 ../template-intro.php:41
+msgid "Tag:"
+msgstr ""
+
+#: ../template-intro.php:14
+msgid "Archive:"
+msgstr ""
+
+#: ../template-intro.php:18
+msgid "Search:"
+msgstr ""
+
+#: ../template-intro.php:22
+msgid "Author:"
+msgstr ""
+
+#: ../template-intro.php:34 ../template-intro.php:39
+msgid "Category:"
+msgstr ""
+
+#: ../uxb_templates/single-portfolio.php:228
+msgid "Related Works."
+msgstr ""
+
+#: ../vc_templates/vc_button.php:9 ../vc_templates/vc_button.php:20
+#: ../vc_templates/vc_cta_button.php:9
+msgid "Button Text"
+msgstr ""
+
+#: ../vc_templates/vc_posts_grid.php:19
+msgid "Cannot generate Blog Posts element. Categories must be defined."
+msgstr ""

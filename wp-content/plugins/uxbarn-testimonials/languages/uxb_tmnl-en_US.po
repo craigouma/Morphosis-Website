@@ -1,0 +1,229 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: UXbarn Testimonials Plugin\n"
+"POT-Creation-Date: 2013-12-07 16:57+0700\n"
+"PO-Revision-Date: 2013-12-07 17:53+0700\n"
+"Last-Translator: Paul <paul@uxbarn.com>\n"
+"Language-Team: UXbarn <support@uxbarn.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/custom-widgets.php:8
+msgid "[UX] Testimonials"
+msgstr ""
+
+#: ../includes/custom-widgets.php:9
+msgid ""
+"Displays created custom testimonials. This widget is from UXbarn "
+"Testimonials plugin."
+msgstr ""
+
+#: ../includes/custom-widgets.php:15 ../includes/plugin-functions.php:105
+#: ../includes/post-types.php:8
+msgid "Testimonials"
+msgstr ""
+
+#: ../includes/custom-widgets.php:21
+msgid "Title:"
+msgstr ""
+
+#: ../includes/custom-widgets.php:25
+msgid "Auto rotation:"
+msgstr ""
+
+#: ../includes/custom-widgets.php:27
+msgid "Disable"
+msgstr ""
+
+#: ../includes/custom-widgets.php:48
+msgid "Select specific testimonials to be shown:"
+msgstr ""
+
+#: ../includes/custom-widgets.php:50
+msgid "(*Uncheck all will show every testimonials.)"
+msgstr ""
+
+#: ../includes/meta-boxes.php:21
+msgid "Testimonial Text Setting"
+msgstr ""
+
+#: ../includes/meta-boxes.php:29
+msgid "Testimonial Text"
+msgstr ""
+
+#: ../includes/meta-boxes.php:30
+msgid ""
+"Enter your testimonial text here. Note that the post title will be used as "
+"cite and Featured Image is for thumbnail."
+msgstr ""
+
+#: ../includes/plugin-functions.php:102
+msgid "Available items"
+msgstr ""
+
+#: ../includes/plugin-functions.php:109
+msgid "Content"
+msgstr ""
+
+#: ../includes/plugin-functions.php:118
+msgid "Select the items from the list."
+msgstr ""
+
+#: ../includes/plugin-functions.php:125
+msgid "Style"
+msgstr ""
+
+#: ../includes/plugin-functions.php:128
+msgid "Full-width + thumbnail (work best on 1/1 column)"
+msgstr ""
+
+#: ../includes/plugin-functions.php:129
+msgid "Text only + float left"
+msgstr ""
+
+#: ../includes/plugin-functions.php:130
+msgid "Text only + float right"
+msgstr ""
+
+#: ../includes/plugin-functions.php:132
+msgid "Choose the testimonial style."
+msgstr ""
+
+#: ../includes/plugin-functions.php:139
+msgid "Width"
+msgstr ""
+
+#: ../includes/plugin-functions.php:142
+msgid ""
+"Specify the width in % or px unit. Example: <em>400px</em> OR <em>50%</em>. "
+"Leave it blank to use 100% width as default."
+msgstr ""
+
+#: ../includes/plugin-functions.php:153
+msgid "Auto rotation duration"
+msgstr ""
+
+#: ../includes/plugin-functions.php:156
+msgid "Disable auto rotation"
+msgstr ""
+
+#: ../includes/plugin-functions.php:175
+msgid ""
+"Select how many seconds to stay on current slide before rotating to the next "
+"one."
+msgstr ""
+
+#: ../includes/plugin-functions.php:182
+msgid "Order by"
+msgstr ""
+
+#: ../includes/plugin-functions.php:185
+msgid "ID"
+msgstr ""
+
+#: ../includes/plugin-functions.php:186 ../includes/post-types.php:49
+msgid "Title"
+msgstr ""
+
+#: ../includes/plugin-functions.php:187
+msgid "Slug"
+msgstr ""
+
+#: ../includes/plugin-functions.php:188
+msgid "Published Date"
+msgstr ""
+
+#: ../includes/plugin-functions.php:189
+msgid "Modified Date"
+msgstr ""
+
+#: ../includes/plugin-functions.php:190
+msgid "Random"
+msgstr ""
+
+#: ../includes/plugin-functions.php:192
+msgid ""
+"Select the which parameter to be used for ordering. <a href=\"http://codex."
+"wordpress.org/Class_Reference/WP_Query#Order_.26_Orderby_Parameters\" target="
+"\"_blank\">See more info here</a>"
+msgstr ""
+
+#: ../includes/plugin-functions.php:199
+msgid "Order"
+msgstr ""
+
+#: ../includes/plugin-functions.php:202
+msgid "Ascending"
+msgstr ""
+
+#: ../includes/plugin-functions.php:203
+msgid "Descending"
+msgstr ""
+
+#: ../includes/plugin-functions.php:205
+msgid ""
+"<a href=\"http://codex.wordpress.org/Class_Reference/"
+"WP_Query#Order_.26_Orderby_Parameters\" target=\"_blank\">See more info "
+"here</a>"
+msgstr ""
+
+#: ../includes/post-types.php:10 ../includes/post-types.php:50
+msgid "Testimonial"
+msgstr ""
+
+#: ../includes/post-types.php:11 ../includes/post-types.php:12
+msgid "Add New Testimonial"
+msgstr ""
+
+#: ../includes/post-types.php:13
+msgid "New Testimonial"
+msgstr ""
+
+#: ../includes/post-types.php:14
+msgid "Edit Testimonial"
+msgstr ""
+
+#: ../includes/post-types.php:15
+msgid "All Testimonials"
+msgstr ""
+
+#: ../includes/post-types.php:16
+msgid "View Testimonials"
+msgstr ""
+
+#: ../includes/post-types.php:17
+msgid "Search Testimonials"
+msgstr ""
+
+#: ../includes/post-types.php:18
+msgid "Nothing found"
+msgstr ""
+
+#: ../includes/post-types.php:19
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: ../includes/post-types.php:22
+msgid "Testimonials of your business"
+msgstr ""
+
+#: ../includes/post-types.php:51
+msgid "Thumbnail"
+msgstr ""
+
+#: ../includes/shortcodes.php:20
+msgid ""
+"Cannot create the Testimonials element. You need to select any items first."
+msgstr ""
+
+#: ../includes/shortcodes.php:51
+msgid "No Thumbnail"
+msgstr ""

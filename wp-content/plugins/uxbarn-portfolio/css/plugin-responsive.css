@@ -1,0 +1,325 @@
+
+/* #Media Queries
+================================================== */
+/* Smaller than the max width (1024) */
+@media only screen and (max-width: 1196px) {
+
+	.uxb-port-element-filters {
+		margin-bottom: 40px !important;
+	}
+	
+	/* Portfolio 4 Columns: inside various containing columns */
+	.vc_span2.wpb_column .uxb-port-root-element-wrapper.col4 .uxb-port-element-item,
+	.large-2.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+		font-size: 2px;
+		width: 21.7%;
+	}
+	
+	.vc_span3.wpb_column .uxb-port-root-element-wrapper.col4 .uxb-port-element-item,
+	.large-3.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+		font-size: 3px;
+		width: 21.7%;
+	}
+	
+	.vc_span4.wpb_column .uxb-port-root-element-wrapper.col4 .uxb-port-element-item,
+	.large-4.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+		font-size: 5px;
+		width: 21.5%;
+	}
+	
+	.vc_span5.wpb_column .uxb-port-root-element-wrapper.col4 .uxb-port-element-item,
+	.large-5.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+		font-size: 6px;
+		width: 22%;
+	}
+	
+	.vc_span6.wpb_column .uxb-port-root-element-wrapper.col4 .uxb-port-element-item,
+	.large-6.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+		font-size: 8px;
+		width: 21.8%;
+	}
+	
+	.vc_span7.wpb_column .uxb-port-root-element-wrapper.col4 .uxb-port-element-item,
+	.large-7.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+		font-size: 10px;
+		width: 22%;
+	}
+	
+	.vc_span8.wpb_column .uxb-port-root-element-wrapper.col4 .uxb-port-element-item,
+	.large-8.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+		font-size: 10px;
+		width: 22%;
+	}
+	
+	.vc_span9.wpb_column .uxb-port-root-element-wrapper.col4 .uxb-port-element-item,
+	.large-9.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+		font-size: 11px;
+		width: 22%;
+	}
+	
+	.vc_span10.wpb_column .uxb-port-root-element-wrapper.col4 .uxb-port-element-item,
+	.large-10.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+		font-size: 12px;
+		width: 22%;
+	}
+	
+	
+	/* Portfolio 3 Columns: inside various containing columns */
+	.vc_span2.wpb_column .uxb-port-root-element-wrapper.col3 .uxb-port-element-item,
+	.large-2.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+		font-size: 4px;
+		width: 30%;
+	}
+	
+}
+
+
+/* Smaller than standard 960 (devices and browsers)  (768) */
+@media only screen and (max-width: 959px) {
+	
+	.uxb-port-element-filters {
+		margin-bottom: 30px !important;
+	}
+	
+	/* Portfolio 4 Columns: inside various containing columns */
+	.vc_span2.wpb_column .uxb-port-root-element-wrapper.col4 .uxb-port-element-item,
+	.large-2.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+		font-size: 2px;
+	}
+	
+	.vc_span3.wpb_column .uxb-port-root-element-wrapper.col4 .uxb-port-element-item,
+	.large-3.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+		font-size: 2px;
+		width: 21.7%;
+	}
+	
+	.vc_span4.wpb_column .uxb-port-root-element-wrapper.col4 .uxb-port-element-item,
+	.large-4.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+		font-size: 4px;
+		width: 21.5%;
+	}
+	
+	.vc_span5.wpb_column .uxb-port-root-element-wrapper.col4 .uxb-port-element-item,
+	.large-5.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+		font-size: 5px;
+		width: 22%;
+	}
+	
+	.vc_span6.wpb_column .uxb-port-root-element-wrapper.col4 .uxb-port-element-item,
+	.large-6.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+		font-size: 6px;
+		width: 21.8%;
+	}
+	
+	.vc_span7.wpb_column .uxb-port-root-element-wrapper.col4 .uxb-port-element-item,
+	.large-7.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+		font-size: 7px;
+	}
+	
+	.vc_span8.wpb_column .uxb-port-root-element-wrapper.col4 .uxb-port-element-item,
+	.large-8.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+		font-size: 8px;
+		width: 22%;
+	}
+	
+	.vc_span9.wpb_column .uxb-port-root-element-wrapper.col4 .uxb-port-element-item,
+	.large-9.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+		font-size: 10px;
+		width: 22%;
+	}
+	
+	.vc_span10.wpb_column .uxb-port-root-element-wrapper.col4 .uxb-port-element-item,
+	.large-10.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+		font-size: 11px;
+		width: 22%;
+	}
+	
+	/* Portfolio 4 Columns: with sidebar */
+	.with-sidebar .large-2.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+		font-size: 2px;
+	}
+	
+	.with-sidebar .large-3.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+		font-size: 2px;
+		width: 21.7%;
+	}
+	
+	.with-sidebar .large-4.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+		font-size: 3px;
+		width: 21.7%;
+	}
+	
+	.with-sidebar .large-5.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+		font-size: 3px;
+	}
+	
+	.with-sidebar .large-6.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+		font-size: 4px;
+	}
+	
+	.with-sidebar .large-7.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+		font-size: 5px;
+		width: 21.7%;
+	}
+	
+	.with-sidebar .large-8.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+		font-size: 6px;
+	}
+	
+	.with-sidebar .large-9.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+		font-size: 7px;
+		width: 22%;
+	}
+	
+	.with-sidebar .large-10.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+		font-size: 8px;
+		width: 22%;
+	}
+	
+	.with-sidebar .large-12.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+		font-size: 9px;
+	}
+	
+	
+	/* 3 Columns: inside various containing columns */
+	.vc_span2.wpb_column .uxb-port-root-element-wrapper.col3 .uxb-port-element-item,
+	.large-2.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+		font-size: 2px;
+	}
+	
+	.vc_span3.wpb_column .uxb-port-root-element-wrapper.col3 .uxb-port-element-item,
+	.large-3.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+		font-size: 4px;
+		width: 30%;
+	}
+	
+	.vc_span4.wpb_column .uxb-port-root-element-wrapper.col3 .uxb-port-element-item,
+	.large-4.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+		font-size: 6px;
+	}
+	
+	.vc_span5.wpb_column .uxb-port-root-element-wrapper.col3 .uxb-port-element-item,
+	.large-5.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+		font-size: 7px;
+	}
+	
+	.vc_span6.wpb_column .uxb-port-root-element-wrapper.col3 .uxb-port-element-item,
+	.large-6.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+		font-size: 9px;
+	}
+	
+	.vc_span7.wpb_column .uxb-port-root-element-wrapper.col3 .uxb-port-element-item,
+	.large-7.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+		font-size: 10px;
+	}
+	
+	.vc_span8.wpb_column .uxb-port-root-element-wrapper.col3 .uxb-port-element-item,
+	.large-8.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+		font-size: 12px;
+		width: 30%;
+	}
+	
+	.vc_span9.wpb_column .uxb-port-root-element-wrapper.col3 .uxb-port-element-item,
+	.large-9.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+		font-size: 13px;
+	}
+	
+	.vc_span10.wpb_column .uxb-port-root-element-wrapper.col3 .uxb-port-element-item,
+	.large-10.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+		font-size: 14px;
+		width: 30.3%;
+	}
+
+	/* Portfolio 3 Columns: with sidebar */
+	.with-sidebar .large-2.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+		font-size: 2px;
+		width: 29.5%;
+	}
+	
+	.with-sidebar .large-3.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+		font-size: 3px;
+		width: 30%;
+	}
+	
+	.with-sidebar .large-4.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+		font-size: 3px;
+		width: 30.3%;
+	}
+	
+	.with-sidebar .large-5.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+		font-size: 4px;
+		width: 30%;
+	}
+	
+	.with-sidebar .large-6.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+		font-size: 5px;
+		width: 30%;
+	}
+	
+	.with-sidebar .large-7.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+		font-size: 7px;
+		width: 30%;
+	}
+	
+	.with-sidebar .large-8.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+		font-size: 8px;
+	}
+	
+	.with-sidebar .large-9.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+		font-size: 9px;
+		width: 30.3%;
+	}
+	
+	.with-sidebar .large-10.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+		font-size: 10px;
+		width: 30.3%;
+	}
+	
+}
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) (480)  */
+@media only screen and (max-width: 767px) {
+	
+	#uxb-port-item-meta {
+	    width: 100%;
+	    margin: 0 !important;
+	}
+	
+}
+	
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) (480)  */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	/* Portfolio 4 and 3 Columns: inside various containing columns */
+	.uxb-port-root-element-wrapper .uxb-port-element-item { /**/
+		font-size: 13px !important;
+		width: 45% !important;
+	}
+	
+	#inner-content-container .uxb-port-image-slider-item a.image-link, /* theme's element ID */
+	.uxb-port-image-slider-item a.image-link {
+		width: 100% !important;
+	}
+	
+	#uxb-port-single-images-container {
+		min-height: 300px;
+	}
+	
+}
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) (320)  */
+@media only screen and (max-width: 479px) {
+
+	/* Portfolio 4 and 3 Columns: inside various containing columns */
+	.uxb-port-root-element-wrapper .uxb-port-element-item { /**/
+		font-size: 14px !important;
+		width: auto !important;
+	}
+	
+	.uxb-port-image-caption-wrapper {
+		display: none;
+	}
+	
+}

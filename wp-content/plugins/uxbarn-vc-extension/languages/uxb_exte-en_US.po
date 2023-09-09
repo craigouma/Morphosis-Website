@@ -1,0 +1,263 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: UXbarn Extension for Visual Composer Plugin\n"
+"POT-Creation-Date: 2014-08-07 19:36+0700\n"
+"PO-Revision-Date: 2014-08-07 19:36+0700\n"
+"Last-Translator: Paul <paul@uxbarn.com>\n"
+"Language-Team: UXbarn <support@uxbarn.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/plugin-functions.php:24
+msgid "Heading"
+msgstr ""
+
+#: ../includes/plugin-functions.php:28 ../includes/plugin-functions.php:159
+#: ../includes/plugin-functions.php:228 ../includes/plugin-functions.php:283
+msgid "Content"
+msgstr ""
+
+#: ../includes/plugin-functions.php:34
+msgid "Heading text"
+msgstr ""
+
+#: ../includes/plugin-functions.php:36 ../includes/shortcodes.php:8
+msgid "Title"
+msgstr ""
+
+#: ../includes/plugin-functions.php:44 ../includes/plugin-functions.php:253
+msgid "Type"
+msgstr ""
+
+#: ../includes/plugin-functions.php:53
+msgid "Choose the heading type."
+msgstr ""
+
+#: ../includes/plugin-functions.php:60 ../includes/plugin-functions.php:195
+msgid "Alignment"
+msgstr ""
+
+#: ../includes/plugin-functions.php:63 ../includes/plugin-functions.php:198
+msgid "Left"
+msgstr ""
+
+#: ../includes/plugin-functions.php:64 ../includes/plugin-functions.php:199
+msgid "Center"
+msgstr ""
+
+#: ../includes/plugin-functions.php:65 ../includes/plugin-functions.php:200
+msgid "Right"
+msgstr ""
+
+#: ../includes/plugin-functions.php:67
+msgid "Select text alignment for this heading."
+msgstr ""
+
+#: ../includes/plugin-functions.php:74
+msgid "Has line?"
+msgstr ""
+
+#: ../includes/plugin-functions.php:77 ../includes/plugin-functions.php:90
+#: ../includes/vc-param-array.php:19
+msgid "No"
+msgstr ""
+
+#: ../includes/plugin-functions.php:78 ../includes/plugin-functions.php:91
+msgid "Yes"
+msgstr ""
+
+#: ../includes/plugin-functions.php:80
+msgid "Whether to display a line at the bottom of the heading."
+msgstr ""
+
+#: ../includes/plugin-functions.php:87
+msgid "Has icon?"
+msgstr ""
+
+#: ../includes/plugin-functions.php:93
+msgid "Whether to display the icon before heading text."
+msgstr ""
+
+#: ../includes/plugin-functions.php:100 ../includes/plugin-functions.php:165
+msgid "Icon code"
+msgstr ""
+
+#: ../includes/plugin-functions.php:103
+#, php-format
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Click here to see all available icons</a>. "
+"Just copy and paste the icon code into the text field. For example: <em>icon-"
+"asterisk</em>. Leave this field blank when not to use icon."
+msgstr ""
+
+#: ../includes/plugin-functions.php:114
+msgid "Icon Size"
+msgstr ""
+
+#: ../includes/plugin-functions.php:117 ../includes/plugin-functions.php:178
+msgid "Specify the size number for the icon (px). Only number is allowed."
+msgstr ""
+
+#: ../includes/plugin-functions.php:128
+msgid "Icon Color"
+msgstr ""
+
+#: ../includes/plugin-functions.php:131 ../includes/plugin-functions.php:188
+msgid "Choose the color."
+msgstr ""
+
+#: ../includes/plugin-functions.php:155
+msgid "Icon"
+msgstr ""
+
+#: ../includes/plugin-functions.php:168
+#, php-format
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Click here to see all available icons</a>. "
+"Just copy and paste the icon code into the text field. For example: <em>icon-"
+"asterisk</em>"
+msgstr ""
+
+#: ../includes/plugin-functions.php:175
+msgid "Size"
+msgstr ""
+
+#: ../includes/plugin-functions.php:185
+msgid "Color"
+msgstr ""
+
+#: ../includes/plugin-functions.php:201
+msgid "Float left (will be on the same line with adjacent text block)"
+msgstr ""
+
+#: ../includes/plugin-functions.php:202
+msgid "Float right (will be on the same line with adjacent text block)"
+msgstr ""
+
+#: ../includes/plugin-functions.php:204
+msgid "Select the alignment for this icon."
+msgstr ""
+
+#: ../includes/plugin-functions.php:224
+msgid "Blockquote"
+msgstr ""
+
+#: ../includes/plugin-functions.php:234
+msgid "Text"
+msgstr ""
+
+#: ../includes/plugin-functions.php:237
+msgid "Enter the text for this quote."
+msgstr ""
+
+#: ../includes/plugin-functions.php:243
+msgid "Cite"
+msgstr ""
+
+#: ../includes/plugin-functions.php:246
+msgid "Enter the name or source of the quote."
+msgstr ""
+
+#: ../includes/plugin-functions.php:256
+msgid "Normal"
+msgstr ""
+
+#: ../includes/plugin-functions.php:257
+msgid "Float left"
+msgstr ""
+
+#: ../includes/plugin-functions.php:258
+msgid "Float right"
+msgstr ""
+
+#: ../includes/plugin-functions.php:260
+msgid "Choose the display type."
+msgstr ""
+
+#: ../includes/plugin-functions.php:279
+msgid "Divider"
+msgstr ""
+
+#: ../includes/plugin-functions.php:289
+msgid "Style"
+msgstr ""
+
+#: ../includes/plugin-functions.php:292
+msgid "Thin"
+msgstr ""
+
+#: ../includes/plugin-functions.php:293
+msgid "Light"
+msgstr ""
+
+#: ../includes/plugin-functions.php:294
+msgid "Bold"
+msgstr ""
+
+#: ../includes/plugin-functions.php:295
+msgid "Thin + Dashed"
+msgstr ""
+
+#: ../includes/plugin-functions.php:296
+msgid "Light + Dashed"
+msgstr ""
+
+#: ../includes/plugin-functions.php:297
+msgid "Bold + Dashed"
+msgstr ""
+
+#: ../includes/plugin-functions.php:298
+msgid "Special"
+msgstr ""
+
+#: ../includes/plugin-functions.php:300
+msgid "Choose the style for divider."
+msgstr ""
+
+#: ../includes/vc-param-array.php:15
+msgid "CSS Animation"
+msgstr ""
+
+#: ../includes/vc-param-array.php:20
+msgid "Top to bottom"
+msgstr ""
+
+#: ../includes/vc-param-array.php:21
+msgid "Bottom to top"
+msgstr ""
+
+#: ../includes/vc-param-array.php:22
+msgid "Left to right"
+msgstr ""
+
+#: ../includes/vc-param-array.php:23
+msgid "Right to left"
+msgstr ""
+
+#: ../includes/vc-param-array.php:24
+msgid "Appear from center"
+msgstr ""
+
+#: ../includes/vc-param-array.php:26
+msgid ""
+"Select animation type if you want this element to be animated when it enters "
+"into the browsers viewport. Note: Works only in modern browsers."
+msgstr ""
+
+#: ../includes/vc-param-array.php:46
+msgid "Extra class name"
+msgstr ""
+
+#: ../includes/vc-param-array.php:49
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""

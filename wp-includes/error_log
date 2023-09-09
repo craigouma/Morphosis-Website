@@ -1,0 +1,1 @@
+[01-Dec-2015 16:44:10 America/New_York] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/morphosi/public_html/wp-includes/rss-functions.php on line 8

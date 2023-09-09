@@ -1,0 +1,575 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: UXbarn Portfolio Plugin\n"
+"POT-Creation-Date: 2014-05-08 01:53+0700\n"
+"PO-Revision-Date: 2014-05-08 01:53+0700\n"
+"Last-Translator: Paul <paul@uxbarn.com>\n"
+"Language-Team: UXbarn <support@uxbarn.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/assets.php:32
+msgid ""
+"Please find below for some options that you can set for UXbarn Portfolio "
+"plugin."
+msgstr ""
+
+#: ../includes/filters.php:15
+msgid "Category: "
+msgstr ""
+
+#: ../includes/filters.php:18
+msgid ""
+"This filter must be placed in the taxonomy template of Portfolio post type "
+"only."
+msgstr ""
+
+#: ../includes/meta-boxes.php:25
+msgid "Alternate Content Settings"
+msgstr ""
+
+#: ../includes/meta-boxes.php:33
+msgid "Alternate Title on Single Page"
+msgstr ""
+
+#: ../includes/meta-boxes.php:34
+msgid ""
+"You can use this field to enter the alternate title to be displayed on "
+"portfolio single page. You may use a basic HTML tag like \"span\" to create "
+"accent color on title.<br/><br/>If you leave this blank, the normal title "
+"will be used.<br/><br/><strong>Important:</strong> If you put HTML tag here, "
+"ensure that you open and close the tag properly."
+msgstr ""
+
+#: ../includes/meta-boxes.php:45
+msgid "Alternate Thumbnail for Portfolio Element"
+msgstr ""
+
+#: ../includes/meta-boxes.php:46
+msgid ""
+"By default, when using Portfolio Element (via Visual Composer) on a page "
+"with \"Grid Columns\" type, it will use Featured Image for each item "
+"thumbnail. If you want to use the \"Slider\" type with different thumbnail, "
+"you can use this option.<br/><br/>Note that if you leave this blank, the "
+"\"Slider\" type will also use Featured Image for the thumbnail."
+msgstr ""
+
+#: ../includes/meta-boxes.php:72
+msgid "Portfolio Meta Info Setting"
+msgstr ""
+
+#: ../includes/meta-boxes.php:80
+msgid "Show meta info of this item?"
+msgstr ""
+
+#: ../includes/meta-boxes.php:81
+msgid ""
+"Use this option if you want to show or hide meta information on single page."
+msgstr ""
+
+#: ../includes/meta-boxes.php:92 ../includes/plugin-functions.php:227
+#: ../includes/plugin-options.php:93 ../includes/plugin-options.php:131
+#: ../includes/plugin-options.php:186 ../includes/vc-param-array.php:97
+msgid "Yes"
+msgstr ""
+
+#: ../includes/meta-boxes.php:97 ../includes/plugin-functions.php:228
+#: ../includes/plugin-options.php:98 ../includes/plugin-options.php:136
+#: ../includes/plugin-options.php:191 ../includes/vc-param-array.php:98
+msgid "No"
+msgstr ""
+
+#: ../includes/meta-boxes.php:104 ../includes/plugin-options.php:166
+#: ../includes/templates/single-portfolio.php:215
+msgid "Date"
+msgstr ""
+
+#: ../includes/meta-boxes.php:105
+msgid "Enter the creation date of this item. Example: <em>March 15, 2013</em>"
+msgstr ""
+
+#: ../includes/meta-boxes.php:116 ../includes/plugin-options.php:156
+#: ../includes/templates/single-portfolio.php:218
+msgid "Client"
+msgstr ""
+
+#: ../includes/meta-boxes.php:117
+msgid "Enter the client name"
+msgstr ""
+
+#: ../includes/meta-boxes.php:128 ../includes/plugin-options.php:161
+#: ../includes/templates/single-portfolio.php:244
+msgid "Website"
+msgstr ""
+
+#: ../includes/meta-boxes.php:129
+msgid "Enter the website. Example: <em>www.uxbarn.com</em>"
+msgstr ""
+
+#: ../includes/meta-boxes.php:155
+msgid "Portfolio Item Format Setting"
+msgstr ""
+
+#: ../includes/meta-boxes.php:163
+msgid "Portfolio Item Format"
+msgstr ""
+
+#: ../includes/meta-boxes.php:164
+msgid ""
+"Select the format for this item. Then you can manage its specific content "
+"using the meta box below.<br/><br/>Every format uses <strong>Featured Image "
+"for thumbnail</strong> and <strong>meta box below for content</strong> (in "
+"single page)."
+msgstr ""
+
+#: ../includes/meta-boxes.php:175
+msgid "Image/Slideshow"
+msgstr ""
+
+#: ../includes/meta-boxes.php:180
+msgid "Video"
+msgstr ""
+
+#: ../includes/meta-boxes.php:202
+msgid "Meta Box for Image/Slideshow Format"
+msgstr ""
+
+#: ../includes/meta-boxes.php:210
+msgid "Images"
+msgstr ""
+
+#: ../includes/meta-boxes.php:211
+msgid ""
+"You can use this setting to add the images and rearrange the order by drag "
+"and drop. Slideshow mode will be enabled automatically on the front-end if "
+"there is more than one images added. <strong>Recommended image sizes should "
+"be equal or larger than 1100x676 for landscape view and 600x816 for portrait "
+"view</strong>.<br/><br/>Note that the field \"Title\" will only be used here "
+"in the backend. In the frontend, theme will use \"alt\", \"title\" and "
+"\"caption\" values from the image itself."
+msgstr ""
+
+#: ../includes/meta-boxes.php:222
+msgid "Image"
+msgstr ""
+
+#: ../includes/meta-boxes.php:236 ../includes/post-types.php:76
+msgid "Layout Mode"
+msgstr ""
+
+#: ../includes/meta-boxes.php:237
+msgid "Select which layout to use for the single page."
+msgstr ""
+
+#: ../includes/meta-boxes.php:247
+msgid "Landscape"
+msgstr ""
+
+#: ../includes/meta-boxes.php:252
+msgid "Portrait"
+msgstr ""
+
+#: ../includes/meta-boxes.php:276
+msgid "Meta Box for Video Format"
+msgstr ""
+
+#: ../includes/meta-boxes.php:284
+msgid "Video URL"
+msgstr ""
+
+#: ../includes/meta-boxes.php:285
+msgid ""
+"Enter the URL to your YouTube or Vimeo video here. <br/><br/>For example, "
+"<em>\"http://www.youtube.com/watch?v=G_G8SdXktHg\"</em> for YouTube. Or, <em>"
+"\"http://vimeo.com/7449107\"</em> for Vimeo."
+msgstr ""
+
+#: ../includes/plugin-functions.php:179 ../includes/post-types.php:8
+#: ../includes/post-types.php:10
+msgid "Portfolio"
+msgstr ""
+
+#: ../includes/plugin-functions.php:183
+msgid "Content"
+msgstr ""
+
+#: ../includes/plugin-functions.php:189
+msgid "Portfolio categories"
+msgstr ""
+
+#: ../includes/plugin-functions.php:192
+msgid "Select the categories from the list."
+msgstr ""
+
+#: ../includes/plugin-functions.php:199
+msgid "Maximum number of items to be displayed"
+msgstr ""
+
+#: ../includes/plugin-functions.php:202
+msgid ""
+"Enter a number to limit the max number of items to be listed. Leave it blank "
+"to show all items from the selected categories above. Only number is allowed."
+msgstr ""
+
+#: ../includes/plugin-functions.php:209
+msgid "Type"
+msgstr ""
+
+#: ../includes/plugin-functions.php:212
+msgid "Grid 3 Columns"
+msgstr ""
+
+#: ../includes/plugin-functions.php:213
+msgid "Grid 4 Columns"
+msgstr ""
+
+#: ../includes/plugin-functions.php:214
+msgid "Slider (fade transition)"
+msgstr ""
+
+#: ../includes/plugin-functions.php:215
+msgid "Slider (slide transition)"
+msgstr ""
+
+#: ../includes/plugin-functions.php:217
+msgid "Select the display type for this element."
+msgstr ""
+
+#: ../includes/plugin-functions.php:224
+msgid "Show category filter"
+msgstr ""
+
+#: ../includes/plugin-functions.php:230
+msgid "Whether to display the category filter at the top of the element."
+msgstr ""
+
+#: ../includes/plugin-functions.php:260
+msgid "Thumbnail size"
+msgstr ""
+
+#: ../includes/plugin-functions.php:263
+msgid ""
+"Select which size to be used for the thumbnails. Anyway, the image will be "
+"scaled depending on its original size and containing column. If you are not "
+"sure which one to use, try <em>Large Square</em> or <em>Original size</em>."
+msgstr ""
+
+#: ../includes/plugin-options.php:19 ../includes/plugin-options.php:20
+msgid "UXbarn Portfolio Options"
+msgstr ""
+
+#: ../includes/plugin-options.php:25
+msgid "Plugin options updated."
+msgstr ""
+
+#: ../includes/plugin-options.php:26
+msgid "Plugin options reset."
+msgstr ""
+
+#: ../includes/plugin-options.php:27
+msgid "Save Changes"
+msgstr ""
+
+#: ../includes/plugin-options.php:35
+msgid "Portfolio Single Page"
+msgstr ""
+
+#: ../includes/plugin-options.php:43
+msgid "Slider's Transition Effect"
+msgstr ""
+
+#: ../includes/plugin-options.php:44
+msgid "Select the transition for the image slider."
+msgstr ""
+
+#: ../includes/plugin-options.php:55
+msgid "Fade"
+msgstr ""
+
+#: ../includes/plugin-options.php:60
+msgid "Slide"
+msgstr ""
+
+#: ../includes/plugin-options.php:68
+msgid "Slider's Transition Speed"
+msgstr ""
+
+#: ../includes/plugin-options.php:69
+msgid ""
+"Enter a number of how fast you want the transition to animate, in "
+"milliseconds."
+msgstr ""
+
+#: ../includes/plugin-options.php:81
+msgid "Enable Slider's Auto Rotation?"
+msgstr ""
+
+#: ../includes/plugin-options.php:82
+msgid "Whether to enable the auto rotation mode for the slider."
+msgstr ""
+
+#: ../includes/plugin-options.php:106
+msgid "Slider's Rotation Delay"
+msgstr ""
+
+#: ../includes/plugin-options.php:107
+msgid ""
+"Enter a number of how long to stay on the current slide before rotating to "
+"the next one, in milliseconds."
+msgstr ""
+
+#: ../includes/plugin-options.php:119
+msgid "Display Related Works?"
+msgstr ""
+
+#: ../includes/plugin-options.php:120
+msgid "Whether to display the Related Works section."
+msgstr ""
+
+#: ../includes/plugin-options.php:144
+msgid "Related Works: Optional Scopes"
+msgstr ""
+
+#: ../includes/plugin-options.php:145
+msgid ""
+"By default, theme uses only portfolio category for displaying related works. "
+"This option lets you choose any optional scopes (from custom fields) to be "
+"used with the portfolio category. The operators are applied as:<br/><br/"
+"><strong>category AND (client OR website OR date)</strong><br/><br/>Also "
+"note that all scopes here use the exact match (=) to compare the values."
+msgstr ""
+
+#: ../includes/plugin-options.php:174
+msgid "Enable Portfolio Comment?"
+msgstr ""
+
+#: ../includes/plugin-options.php:175
+msgid ""
+"Whether to enable the comment function for all portfolio items by default."
+"<br/><br/>When you have enabled it, please make sure that each portfolio "
+"item is also marked as \"Allow Comments\". You can find that mark from the "
+"Quick Edit menu of each item on Portfolio menu."
+msgstr ""
+
+#: ../includes/post-types.php:11 ../includes/post-types.php:12
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: ../includes/post-types.php:13
+msgid "New Portfolio Item"
+msgstr ""
+
+#: ../includes/post-types.php:14
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: ../includes/post-types.php:15
+msgid "All Portfolio Items"
+msgstr ""
+
+#: ../includes/post-types.php:16
+msgid "View Portfolio"
+msgstr ""
+
+#: ../includes/post-types.php:17
+msgid "Search Portfolio"
+msgstr ""
+
+#: ../includes/post-types.php:18
+msgid "Nothing found"
+msgstr ""
+
+#: ../includes/post-types.php:19
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: ../includes/post-types.php:22
+msgid "Portfolio of your business"
+msgstr ""
+
+#: ../includes/post-types.php:29
+msgid "portfolio"
+msgstr ""
+
+#: ../includes/post-types.php:38 ../includes/post-types.php:52
+msgid "Portfolio Category"
+msgstr ""
+
+#: ../includes/post-types.php:39
+msgid "Search Categories"
+msgstr ""
+
+#: ../includes/post-types.php:40
+msgid "All Categories"
+msgstr ""
+
+#: ../includes/post-types.php:41
+msgid "Edit Category"
+msgstr ""
+
+#: ../includes/post-types.php:42
+msgid "Update Category"
+msgstr ""
+
+#: ../includes/post-types.php:43
+msgid "Add New Category"
+msgstr ""
+
+#: ../includes/post-types.php:51
+msgid "Portfolio Categories"
+msgstr ""
+
+#: ../includes/post-types.php:53
+msgid "portfolio-category"
+msgstr ""
+
+#: ../includes/post-types.php:73 ../includes/vc-param-array.php:126
+msgid "Title"
+msgstr ""
+
+#: ../includes/post-types.php:74
+msgid "Thumbnail"
+msgstr ""
+
+#: ../includes/post-types.php:75
+msgid "Item Format"
+msgstr ""
+
+#: ../includes/post-types.php:77
+#: ../includes/templates/single-portfolio.php:221
+msgid "Categories"
+msgstr ""
+
+#: ../includes/shortcodes.php:24
+msgid "Cannot generate Portfolio element. Categories must be defined."
+msgstr ""
+
+#: ../includes/shortcodes.php:85
+msgid "There are no portfolio items available in the selected categories."
+msgstr ""
+
+#: ../includes/shortcodes.php:92
+#: ../includes/templates/single-portfolio.php:403
+#: ../includes/templates/taxonomy-portfolio.php:11
+msgid "Loading"
+msgstr ""
+
+#: ../includes/shortcodes.php:100
+msgid "All"
+msgstr ""
+
+#: ../includes/shortcodes.php:148 ../includes/shortcodes.php:206
+#: ../includes/templates/single-portfolio.php:414
+#: ../includes/templates/taxonomy-portfolio.php:25
+msgid "No Thumbnail"
+msgstr ""
+
+#: ../includes/vc-param-array.php:8
+msgid "Original size"
+msgstr ""
+
+#: ../includes/vc-param-array.php:48
+msgid "Auto rotation duration"
+msgstr ""
+
+#: ../includes/vc-param-array.php:51
+msgid "Disable auto rotation"
+msgstr ""
+
+#: ../includes/vc-param-array.php:70
+msgid ""
+"Select how many seconds to stay on current slide before rotating to the next "
+"one."
+msgstr ""
+
+#: ../includes/vc-param-array.php:94
+msgid "Show bullets?"
+msgstr ""
+
+#: ../includes/vc-param-array.php:100
+msgid "Whether to display the slider's bullets."
+msgstr ""
+
+#: ../includes/vc-param-array.php:122
+msgid "Order by"
+msgstr ""
+
+#: ../includes/vc-param-array.php:125
+msgid "ID"
+msgstr ""
+
+#: ../includes/vc-param-array.php:127
+msgid "Slug"
+msgstr ""
+
+#: ../includes/vc-param-array.php:128
+msgid "Published Date"
+msgstr ""
+
+#: ../includes/vc-param-array.php:129
+msgid "Modified Date"
+msgstr ""
+
+#: ../includes/vc-param-array.php:130
+msgid "Random"
+msgstr ""
+
+#: ../includes/vc-param-array.php:132
+msgid ""
+"Select the which parameter to be used for ordering. <a href=\"http://codex."
+"wordpress.org/Class_Reference/WP_Query#Order_.26_Orderby_Parameters\" target="
+"\"_blank\">See more info here</a>"
+msgstr ""
+
+#: ../includes/vc-param-array.php:152
+msgid "Order"
+msgstr ""
+
+#: ../includes/vc-param-array.php:155
+msgid "Ascending"
+msgstr ""
+
+#: ../includes/vc-param-array.php:156
+msgid "Descending"
+msgstr ""
+
+#: ../includes/vc-param-array.php:158
+msgid ""
+"<a href=\"http://codex.wordpress.org/Class_Reference/"
+"WP_Query#Order_.26_Orderby_Parameters\" target=\"_blank\">See more info "
+"here</a>"
+msgstr ""
+
+#: ../includes/vc-param-array.php:178
+msgid "Extra class name"
+msgstr ""
+
+#: ../includes/vc-param-array.php:181
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: ../includes/templates/single-portfolio.php:135
+msgid "You have not yet added any images."
+msgstr ""
+
+#: ../includes/templates/single-portfolio.php:164
+msgid "You have not yet specified the video URL."
+msgstr ""
+
+#: ../includes/templates/single-portfolio.php:400
+msgid "Related Works"
+msgstr ""
+
+#: ../includes/templates/single-portfolio.php:477
+msgid "OptionTree plugin must be installed and activated first."
+msgstr ""

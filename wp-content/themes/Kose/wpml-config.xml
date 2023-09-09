@@ -1,0 +1,16 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="copy">_thumbnail_id</custom-field>
+	</custom-fields>
+	<custom-types>
+		<custom-type translate="1">uxbarn_portfolio</custom-type>
+		<custom-type translate="1">uxbarn_team</custom-type>
+		<custom-type translate="1">uxbarn_testimonials</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">uxbarn_portfolio_tax</taxonomy>
+	</taxonomies>
+	<admin-texts>
+		<key name="uxbarn_sc_panel_site_logo" />
+	</admin-texts>
+</wpml-config>

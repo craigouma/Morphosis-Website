@@ -1,0 +1,774 @@
+.row {
+	margin: 0 auto 68px;
+	max-width: 1050px;
+}
+
+.no-margin-bottom {
+/*.no-margin-bottom p {*/
+	margin-bottom: 0 !important;
+}
+
+.border {
+	border: 8px solid #eaeaea;
+}
+
+.uxb-port-embed {
+	margin-bottom: 18px;
+	overflow: hidden;
+	position: relative;
+	padding: 0;
+	padding-bottom: 56.25% !important; /* 16:9 ratio*/
+}
+
+.uxb-port-embed:last-child {
+    margin-bottom: 0;
+}
+
+.uxb-port-embed iframe, 
+.uxb-port-embed object, 
+.uxb-port-embed embed {
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.uxb-port-box {
+  background-color: #2ba6cb;
+  border: 0;
+  color: #fff; 
+  display: block;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: 1.8;
+  margin-bottom: 1.25em;
+  position: relative;
+  padding: 18px 24px;
+}
+
+.uxb-port-box.info {
+    background-color: #DEEDFF;
+    color: #3275BD; 
+}
+
+
+
+/***** Portfolio Element *****/
+.uxb-port-root-element-wrapper,
+.uxb-port-root-element-wrapper * {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.uxb-port-root-element-wrapper {
+	/*margin: 0 -15px;*/
+	margin: 0 -1.428571428571429%; /* negative margins to deal with "portfolio-item" margins so the items are aligned with grid */
+	overflow: hidden;
+}
+
+.uxb-port-loading-text {
+	background: url('../images/loading-s.gif') no-repeat 50% 35%;
+    border: 1px solid #eaeaea;
+	border-radius: 10px;
+	color: #888;
+	display: block;
+	font-size: 12px;
+	margin: 24px auto;
+	text-align: center;
+	width: 150px;
+	height: 90px;
+}
+
+.uxb-port-loading-text span {
+    margin-top: 60px;
+    float: left;
+    width: 100%;
+    display: block;
+    letter-spacing: 1px
+}
+
+.uxb-port-loaded-element-wrapper {
+	height: 300px;
+	opacity: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+.uxb-port-element-filters {
+    list-style: none;
+    margin: 0 0 60px;
+    padding: 0;
+    text-align: center;
+}
+
+.uxb-port-element-filters li {
+    display: inline-block;
+    margin: 0;
+   	margin-right: -1px;
+}
+
+.uxb-port-element-filters a {
+    border: 1px solid transparent;
+    color: #888;
+    display: inline-block;
+    font-weight: normal;
+    padding: 12px 24px;
+	transition: all .18s ease-in-out;
+   -moz-transition: all .18s ease-in-out;
+   -webkit-transition: all .18s ease-in-out;
+   -o-transition: all .18s ease-in-out;
+}
+
+.uxb-port-element-filters a:hover {
+    border-color: #bbb;
+}
+
+.uxb-port-element-filters a.active {
+    border: 1px solid #666;
+    color: #666;
+    cursor: default;
+}
+
+.uxb-port-element-item {
+	cursor: pointer;
+	float: left;
+	/*margin: 0 15px 30px;*/
+	margin: 0 1.428571428571429% 30px; /* 1.5% = (15px*100)/1000px */
+	overflow: hidden;
+	position: relative;
+	opacity: 0;
+	visibility: hidden; /* need to use this instead of "display: none" because isotope JS will have to calculate the dimension of the element */
+}
+
+/*
+.uxb-port-element-item:hover .uxb-port-element-item-hover {
+	opacity: .9;
+}*/
+
+
+.uxb-port-element-item-hover {
+	background: #888;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+	height: 100%;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	width: 100%;
+	/*transition: opacity .18s ease-in-out;
+   -moz-transition: opacity .18s ease-in-out;
+   -webkit-transition: opacity .18s ease-in-out;
+   -o-transition: opacity .18s ease-in-out;*/
+  	display: table;
+}
+
+.uxb-port-element-item-hover a {
+	border-bottom: 0 !important;
+	font-weight: normal !important;
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.uxb-port-element-item-hover h3,
+.uxb-port-element-item-hover h4 {
+	color: #fefefe;
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	line-height: 1.2;
+	margin: 2.307692307692308em 0; /* 30/13 */
+}
+
+.uxb-port-root-element-wrapper .uxb-port-element-item-hover h3 {
+	font-size: 1em;
+}
+
+.uxb-port-element-item-hover hr {
+	border: 0;
+	border-top: 1px solid #fefefe;
+	margin: auto;
+	width: 45%;
+}
+
+.uxb-port-element-item-hover-info {
+	padding: 0 2.307692307692308em; /* 30/13 */
+	/*position: absolute;*/
+	width: 100%;
+	display: table-cell; 
+	vertical-align: middle; 
+	text-align: center; 
+}
+
+.uxb-port-element-item img {
+	width: 100%;
+}
+
+/* 4 Columns */
+.uxb-port-root-element-wrapper.col4 .uxb-port-element-item {
+	font-size: 13px; /* based font size for "em" usage on margins and item title */
+	margin-bottom: 2.307692307692308em; /* 30/13 */
+	/*width: 22.1%; this works on all except safari... */
+	width: 22%; 
+}
+
+/* 4 Columns: inside various containing columns */
+.vc_span2.wpb_column .uxb-port-root-element-wrapper.col4 .uxb-port-element-item,
+.large-2.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+	font-size: 2px;
+}
+
+.vc_span3.wpb_column .uxb-port-root-element-wrapper.col4 .uxb-port-element-item,
+.large-3.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+	font-size: 2px;
+	width: 21.7%;
+}
+
+.vc_span4.wpb_column .uxb-port-root-element-wrapper.col4 .uxb-port-element-item,
+.large-4.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+	font-size: 4px;
+}
+
+.vc_span5.wpb_column .uxb-port-root-element-wrapper.col4 .uxb-port-element-item,
+.large-5.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+	font-size: 6px;
+}
+
+.vc_span6.wpb_column .uxb-port-root-element-wrapper.col4 .uxb-port-element-item,
+.large-6.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+	font-size: 8px;
+}
+
+.vc_span7.wpb_column .uxb-port-root-element-wrapper.col4 .uxb-port-element-item,
+.large-7.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+	font-size: 9px;
+}
+
+.vc_span8.wpb_column .uxb-port-root-element-wrapper.col4 .uxb-port-element-item,
+.large-8.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+	font-size: 10px;
+}
+
+.vc_span9.wpb_column .uxb-port-root-element-wrapper.col4 .uxb-port-element-item,
+.large-9.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+	font-size: 11px;
+	width: 22%;
+}
+
+.vc_span10.wpb_column .uxb-port-root-element-wrapper.col4 .uxb-port-element-item,
+.large-10.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+	font-size: 12px;
+	width: 22%;
+}
+
+/* Portfolio 4 Columns: with sidebar */
+.with-sidebar .large-2.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+	font-size: 2px;
+}
+
+.with-sidebar .large-3.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+	font-size: 2px;
+	width: 21.7%;
+}
+
+.with-sidebar .large-4.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+	font-size: 4px;
+	width: 21.7%;
+}
+
+.with-sidebar .large-5.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+	font-size: 4px;
+}
+
+.with-sidebar .large-6.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+	font-size: 6px;
+}
+
+.with-sidebar .large-7.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+	font-size: 8px;
+}
+
+.with-sidebar .large-8.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+	font-size: 9px;
+}
+
+.with-sidebar .large-9.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+	font-size: 10px;
+	width: 22%;
+}
+
+.with-sidebar .large-10.columns .uxb-port-root-element-wrapper.col4 .uxb-port-element-item { /**/
+	font-size: 11px;
+	width: 22%;
+}
+
+
+
+/* 3 Columns */
+.uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+	font-size: 16px; /* based font size for "em" usage on margins and item title */
+	margin-bottom: 1.875em; /* 30/16 */
+	/* width: 30.4%; this works on all except safari... */
+	width: 30.3%;
+}
+
+/* 3 Columns: inside various containing columns */
+.vc_span2.wpb_column .uxb-port-root-element-wrapper.col3 .uxb-port-element-item,
+.large-2.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+	font-size: 4px;
+}
+
+.vc_span3.wpb_column .uxb-port-root-element-wrapper.col3 .uxb-port-element-item,
+.large-3.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+	font-size: 6px;
+	width: 30%;
+}
+
+.vc_span4.wpb_column .uxb-port-root-element-wrapper.col3 .uxb-port-element-item,
+.large-4.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+	font-size: 8px;
+}
+
+.vc_span5.wpb_column .uxb-port-root-element-wrapper.col3 .uxb-port-element-item,
+.large-5.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+	font-size: 9px;
+}
+
+.vc_span6.wpb_column .uxb-port-root-element-wrapper.col3 .uxb-port-element-item,
+.large-6.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+	font-size: 11px;
+}
+
+.vc_span7.wpb_column .uxb-port-root-element-wrapper.col3 .uxb-port-element-item,
+.large-7.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+	font-size: 12px;
+}
+
+.vc_span8.wpb_column .uxb-port-root-element-wrapper.col3 .uxb-port-element-item,
+.large-8.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+	font-size: 13px;
+}
+
+.vc_span9.wpb_column .uxb-port-root-element-wrapper.col3 .uxb-port-element-item,
+.large-9.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+	font-size: 14px;
+}
+
+.vc_span10.wpb_column .uxb-port-root-element-wrapper.col3 .uxb-port-element-item,
+.large-10.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+	font-size: 15px;
+	width: 30.3%;
+}
+
+/* Portfolio 3 Columns: with sidebar */
+.with-sidebar .large-2.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+	font-size: 2px;
+	width: 29.5%;
+}
+
+.with-sidebar .large-3.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+	font-size: 4px;
+	width: 30%;
+}
+
+.with-sidebar .large-4.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+	font-size: 6px;
+	width: 30.3%;
+}
+
+.with-sidebar .large-5.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+	font-size: 7px;
+	width: 30%;
+}
+
+.with-sidebar .large-6.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+	font-size: 9px;
+}
+
+.with-sidebar .large-7.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+	font-size: 11px;
+	width: 30%;
+}
+
+.with-sidebar .large-8.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+	font-size: 12px;
+}
+
+.with-sidebar .large-9.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+	font-size: 13px;
+	width: 30.3%;
+}
+
+.with-sidebar .large-10.columns .uxb-port-root-element-wrapper.col3 .uxb-port-element-item { /**/
+	font-size: 14px;
+	width: 30.3%;
+}
+
+
+/*** Portfoio: Slider Type ***/
+.uxb-port-image-slider-root-container,
+.uxb-port-image-slider-root-container * {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.uxb-port-image-slider-root-container {
+	position: relative;
+}
+
+/* reset the height */
+.auto-height {
+	min-height: inherit !important; /* this is the key for using with "smoothHeight" of flexslider */
+}
+
+/* bullets */
+.flex-control-nav {
+	bottom: -65px;
+	margin-left: 0 !important;
+}
+
+.flex-control-nav li {
+	margin: 0 3px !important;
+}
+
+.flex-control-paging li a {
+    background: #dfdfdf;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    width: 13px;
+    height: 13px;
+}
+
+.flex-control-paging li a:hover {
+    background: #ccc;
+}
+
+.flex-control-paging li a.flex-active {
+    /*background: #e66f66;*/
+}
+
+
+.uxb-port-image-slider-wrapper {
+	background: url('../images/loading.gif') no-repeat center;
+	min-height: 360px; /* init height */
+	margin-bottom: 35px;
+	overflow: hidden;
+	transition: opacity .18s ease-in-out;
+   -moz-transition: opacity .18s ease-in-out;
+   -webkit-transition: opacity .18s ease-in-out;
+   -o-transition: opacity .18s ease-in-out;
+}
+
+.uxb-port-image-slider-wrapper.hide-bullets .flex-control-nav {
+	display: none;
+}
+
+.uxb-port-image-slider-wrapper ul.uxb-port-image-slider {
+	margin: 0 !important;
+	padding: 0 !important;
+	opacity: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+.uxb-port-image-slider-wrapper li {
+	margin: 0;
+}
+
+.uxb-port-image-slider-item {
+	display: none;
+	position: relative;
+}
+
+.uxb-port-image-slider-item a.image-link,
+.uxb-port-image-slider-item img {
+	width: 100%;
+}
+
+.uxb-port-image-slider-item a {
+	border: 0 !important;
+	display: block;
+}
+
+.uxb-port-image-slider-item .uxb-port-slider-caption-wrapper,
+.uxb-port-image-caption-wrapper {
+	position: absolute;
+	bottom: 38px;
+	text-align: center;
+	width: 100%;
+}
+
+.uxb-port-image-slider-item .uxb-port-slider-caption,
+.uxb-port-image-caption {
+	background: rgb(14,14,14);
+	background: rgba(14,14,14, .5);
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #eee;
+	display: inline-block;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 1.5;
+	padding: 14px 29px;
+	position: static;
+	width: auto;
+	max-width: 80%;
+}
+
+
+
+
+
+
+
+/*** Portfolio Single Page ***/
+#uxb-port-single-images-container,
+#uxb-port-single-images-container * {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#uxb-port-single-images-container {
+	background: url('../images/loading.gif') no-repeat center;
+	min-height: 660px; /* init height (using "min-height" is working on Safari and other browsers) */
+	overflow: hidden;
+	position: relative;
+	transition: opacity .18s ease-in-out;
+   -moz-transition: opacity .18s ease-in-out;
+   -webkit-transition: opacity .18s ease-in-out;
+   -o-transition: opacity .18s ease-in-out;
+}
+
+#uxb-port-single-images-container .flex-control-nav {
+	display: none;
+}
+
+#uxb-port-single-images-container.portrait-view {
+	min-height: 750px; /* init height (using "min-height" is working on Safari and other browsers) */
+}
+
+#uxb-port-single-images-container .uxb-port-single-slides, /* fade effect */
+#uxb-port-single-images-container .flex-viewport { /* slide effect */
+	margin: 0;
+	opacity: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+ul.uxb-port-single-slides {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#uxb-port-single-images-container li {
+	margin: 0;
+}
+
+#uxb-port-single-images-container:hover {
+	opacity: 0.9;
+}
+
+.uxb-port-single-image {
+	display: none;
+	position: relative;
+}
+
+.uxb-port-single-image a {
+	border: 0 !important;
+	display: block;
+}
+
+.uxb-port-single-image:hover img {
+	/*opacity: 0.9;*/
+}
+
+.uxb-port-single-image img {
+    height: auto;
+	max-width: 100%;
+}
+
+.uxb-port-slider-caption-wrapper {
+	position: absolute;
+	bottom: 38px;
+	text-align: center;
+	width: 100%;
+}
+
+#uxb-port-single-images-container .uxb-port-slider-caption {
+	background: rgb(14,14,14);
+	background: rgba(14,14,14, .5);
+	color: #eee;
+	display: inline-block;
+	font-size: 14px;
+	font-style: italic;
+	padding: 14px 29px;
+	position: static;
+	width: auto;
+	max-width: 80%;
+}
+
+.uxb-port-slider-controller {
+	background: #111111;
+	border: 0 !important;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #ececec !important;
+	display: none; /* initial display */
+	font-size: 24px;
+	line-height: 1;
+    margin-top: -45px;
+	opacity: 0;
+    position: absolute;
+	text-decoration: none;
+    top: 50%;
+    width: 46px;
+    height: 90px;
+    z-index: 2;
+	transition: background .18s ease-in-out;
+   -moz-transition: background .18s ease-in-out;
+   -webkit-transition: background .18s ease-in-out;
+   -o-transition: background .18s ease-in-out;
+}
+
+.uxb-port-slider-prev {
+    left: 0;
+    padding: 31px 17px;
+}
+
+.uxb-port-slider-next {
+    right: 0;
+    padding: 31px 20px;
+}
+
+.uxb-port-slider-controller:hover {
+    /*background: #e66f66 !important;*/
+}
+
+.uxb-port-image-caption-wrapper {
+	position: absolute;
+	bottom: 38px;
+	text-align: center;
+	width: 100%;
+}
+
+.uxb-port-image-caption {
+	background: rgb(14,14,14);
+	background: rgba(14,14,14, .5);
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #eee;
+	display: inline-block;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 1.5;
+	padding: 14px 29px;
+	position: static;
+	width: auto;
+	max-width: 80%;
+}
+
+
+
+
+#uxb-port-item-meta {
+	border-top: 1px solid #eaeaea;
+	border-left: 1px solid #eaeaea;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	float: right;
+	font-size: 13px;
+	font-style: italic;
+	list-style: none;
+	margin: 0 0 30px 30px !important;
+	padding: 30px 0 30px 30px;
+	width: 232px;
+}
+
+#uxb-port-item-meta.portrait-view {
+	/*border-bottom: 1px solid #eaeaea;*/
+	width: 100%;
+}
+
+#uxb-port-item-meta .title:after {
+    content: ':';
+}
+
+#uxb-port-item-meta a {
+	border-bottom: 0;
+	font-weight: normal;
+}
+
+#uxb-port-item-meta li {
+    margin-left: 0;
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+#uxb-port-item-meta .title {
+	color: #717171;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin-right: 3px;
+	text-transform: uppercase;
+}
+
+#uxb-port-item-categories {
+    display: inline;
+    margin: 0 !important;
+    padding: 0;
+}
+
+#uxb-port-item-categories li {
+    display: inline-block;
+    margin-right: 3px;
+    margin-bottom: 0;
+}
+
+#uxb-port-item-categories li:after {
+    content: ',';
+}
+
+#uxb-port-item-categories li:last-child:after {
+    content: '';
+}
+
+
+/***** Message Box *****/
+.box {
+  background-color: #2ba6cb;
+  border: 0;
+  color: #fff; 
+  display: block;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: 1.8;
+  margin-bottom: 1.25em;
+  position: relative;
+  padding: 18px 24px;
+}
+
+.box.error {
+    background-color: #FDE7E7;
+    color: #D1525D; 
+}
+
+.box.info {
+    background-color: #DEEDFF;
+    color: #3275BD; 
+}

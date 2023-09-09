@@ -1,0 +1,584 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Retina 2x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-01 19:10+0200\n"
+"PO-Revision-Date: 2021-06-01 19:11+0200\n"
+"Last-Translator: Kolja Spyra <webmaster@ntw-ks.de>\n"
+"Language-Team: Kolja Spyra <translation@kolja-spyra.de>\n"
+"Language: de_DE@formal\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: app/js/i18n.js:7
+msgid "Generate"
+msgstr "Generieren"
+
+#: app/js/i18n.js:11 common/admin.php:129 common/admin.php:130
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: app/js/i18n.js:12
+msgid "Pending"
+msgstr "Ausstehend"
+
+#: app/js/i18n.js:13
+msgid "Renamed"
+msgstr "Umbenannt"
+
+#: app/js/i18n.js:14
+msgid "All"
+msgstr "Alle"
+
+#: app/js/i18n.js:15
+msgid "Thumb"
+msgstr "Vorschaubild"
+
+#: app/js/i18n.js:16
+msgid "Replace / Title / Size"
+msgstr "Ersetzen / Titel / Größe"
+
+#: app/js/i18n.js:17
+msgid "Attached To"
+msgstr "Metadaten zu diesen Versandkosten."
+
+#: app/js/i18n.js:18
+msgid "Filename"
+msgstr "Dateiname"
+
+#: classes/admin.php:75
+msgid ""
+"JetPack's <b>Photon</b> module breaks features built in WP Retina 2x (as "
+"Photos moves the files away). A common and better alternative to Photon is "
+"to use <a href='http://tracking.maxcdn.com/c/97349/3982/378'>MaxCDN</a> "
+"(very popular), CloudFlare or Fastly."
+msgstr ""
+"Das <b>Photon-Modul</b> von JetPack bricht die Funktionen der WP Retina 2x "
+"(wenn Fotos die Dateien wegbewegen). Eine häufige und bessere Alternative zu "
+"Photon ist die Verwendung von <a href='http://tracking.maxcdn.com/"
+"c/97349/3982/378'>MaxCDN</a> (sehr beliebt), CloudFlare oder Fastly."
+
+#: classes/admin.php:121 classes/dashboard.php:14
+msgid "Perfect Images"
+msgstr "Perfekte Bilder"
+
+#: classes/core.php:572
+msgid "N/A"
+msgstr "N/A"
+
+#: classes/core.php:643
+msgid "PRO VERSION ONLY"
+msgstr "NUR PRO VERSION"
+
+#: classes/core.php:682
+msgid ""
+"The metadata is broken! This is not related to the retina plugin. You should "
+"probably use a plugin to re-generate the missing metadata and images."
+msgstr ""
+"Die Metadaten sind defekt! Dies hat nichts mit dem Retina-Plugin zu tun. Sie "
+"sollten wahrscheinlich ein Plugin verwenden, um die fehlenden Metadaten und "
+"Bilder neu zu generieren."
+
+#: classes/core.php:686
+#, php-format
+msgid ""
+"The image size '%s' could not be found. You probably changed your image "
+"sizes but this specific image was not re-build. This is not related to the "
+"retina plugin. You should probably use a plugin to re-generate the missing "
+"metadata and images."
+msgstr ""
+"Die Bildgröße'%s' konnte nicht gefunden werden. Sie haben wahrscheinlich "
+"Ihre Bildgrößen geändert, aber dieses spezielle Bild wurde nicht neu "
+"erstellt. Dies hat nichts mit dem Retina-Plugin zu tun. Sie sollten "
+"wahrscheinlich ein Plugin verwenden, um die fehlenden Metadaten und Bilder "
+"neu zu generieren."
+
+#: classes/core.php:704
+#, php-format
+msgid ""
+"The retina version of the Full-Size image is missing.<br />Full Size Retina "
+"has been checked in the Settings and this image is therefore required.<br /"
+">Please drag & drop an image of at least <b>%dx%d</b> in the <b>Full-Size "
+"Retina Upload</b> column."
+msgstr ""
+"Die Retina-Version des Vollbildes fehlt.<br />Die Retina in voller Größe "
+"wurde in den Einstellungen überprüft und daher ist dieses Bild erforderlich."
+"<br />Bitte ziehen Sie ein Bild von mindestens <b>%dx%d</b> per Drag &amp; "
+"Drop in die Spalte <b>Full-Size Retina Upload</b>."
+
+#: classes/core.php:708
+#, php-format
+msgid ""
+"The Full-Size image is too small (<b>%dx%d</b>) and this size cannot be "
+"generated.<br />Please upload an image of at least <b>%dx%d</b>."
+msgstr ""
+"Das Bild in voller Größe ist zu klein<b> (%dx%d</b>) und diese Größe kann "
+"nicht erzeugt werden.<br />Bitte lade ein Bild von mindestens <b>%dx%d</b> "
+"hoch."
+
+#: classes/core.php:718
+msgid "The retina image can be created. Please use the 'GENERATE' button."
+msgstr ""
+"Das Netzhautbild kann erstellt werden. Bitte verwenden Sie die "
+"Schaltfläche'GENERIEREN'."
+
+#: classes/core.php:723
+msgid "The standard image normally created by WordPress is missing."
+msgstr "Das normalerweise von WordPress erstellte Standardbild fehlt."
+
+#: classes/core.php:728
+msgid "This size is ignored by your retina settings."
+msgstr "Diese Größe wird von deinen Netzhaut-Einstellungen ignoriert."
+
+#: classes/dashboard.php:15
+#, php-format
+msgid "Perfect Images %s"
+msgstr "Perfekte Bilder %s"
+
+#: classes/rest.php:319 premium/rest.php:43 premium/rest.php:119
+msgid "You do not have permission to upload files."
+msgstr "Sie haben keine Berechtigung zum Dateiupload."
+
+#: common/admin.php:68
+#, php-format
+msgid "<a href=\"admin.php?page=%s_settings\">Settings</a>"
+msgstr "<a href=\"admin.php?page=%s_settings\">Einstellungen</a>"
+
+#: common/admin.php:71
+msgid "Pro Version"
+msgstr "Pro Version"
+
+#: common/admin.php:72
+msgid "License Issue"
+msgstr "Lizenz-Ausgabe"
+
+#: common/admin.php:72
+msgid ""
+"<a target=\"_blank\" href=\"https://store.meowapps.com\">Get the <u>Pro "
+"Version</u></a>"
+msgstr ""
+"<a target=\"_blank\" href=\"https://store.meowapps.com\">Holen Sie sich die "
+"<u>Pro-Version</u></a>"
+
+#: common/admin.php:103
+#, php-format
+msgid ""
+"<p>It looks like you are using the free version of the plugin (<b>%s</b>) "
+"but a license for the Pro version was also found. The Pro version might have "
+"been replaced by the Free version during an update (might be caused by a "
+"temporarily issue). If it is the case, <b>please download it again</b> from "
+"the <a target=\"_blank\" href=\"https://store.meowapps.com\">Meow Store</a>. "
+"If you wish to continue using the free version and clear this message, click "
+"on this button."
+msgstr ""
+"<p>Es sieht so aus, als ob Sie die freie Version des Plugins<b> (%s)</b> "
+"verwenden, aber es wurde auch eine Lizenz für die Pro-Version gefunden. Die "
+"Pro-Version könnte während eines Updates durch die kostenlose Version "
+"ersetzt worden sein (könnte durch ein vorübergehendes Problem verursacht "
+"worden sein). Wenn dies der Fall ist, <b>laden Sie es bitte erneut</b> aus "
+"dem <a target=\"_blank\" href=\"https://store.meowapps.com\">Meow Store</a> "
+"<b>herunter</b>. Wenn Sie die kostenlose Version weiter verwenden und diese "
+"Meldung löschen möchten, klicken Sie auf diese Schaltfläche."
+
+#: common/admin.php:109
+msgid "Remove the license"
+msgstr "Entfernen Sie die Lizenz"
+
+#: common/admin.php:138
+msgid ""
+"<label>Hide <b>Meow Apps</b> Menu</label><br /><small>Hide Meow Apps menu "
+"and all its components, for a cleaner admin. This option will be reset if a "
+"new Meow Apps plugin is installed. <b>Once activated, an option will be "
+"added in your General settings to display it again.</b></small>"
+msgstr ""
+"<label>Menü für <b>Meow Apps aus</b>blenden</label><br /><small>Hide Meow "
+"Apps Menü und alle seine Komponenten, für eine sauberere Verwaltung. Diese "
+"Option wird zurückgesetzt, wenn ein neues Meow Apps Plugin installiert ist. "
+"<b>Nach der Aktivierung wird in Ihren Allgemeinen Einstellungen eine Option "
+"hinzugefügt, um sie wieder anzuzeigen.</b></small>"
+
+#. translators: %1$s is the version of the interface; %2$s is a file path.
+#: common/admin.php:166
+#, php-format
+msgid ""
+"Thanks for using <a href=\"https://meowapps.com\">Meow Apps</a>! This is the "
+"Meow Admin %1$s <br /><i>Loaded from %2$s </i>"
+msgstr ""
+"Vielen Dank für die Verwendung von <a href=\"https://meowapps.com\">Meow "
+"Apps</a>! Dies ist der Meow Admin %1$s <br /><i>Geladen von %2$s </i>"
+
+#. translators: %1$s is a plugin nicename, %2$s is a short url (slug)
+#: common/classes/ratings.php:65
+#, php-format
+msgid ""
+"You have been using <b>%1$s</b> for some time now. Thank you! Could you "
+"kindly share your opinion with me, along with, maybe, features you would "
+"like to see implemented? Then, please <a style=\"font-weight: bold; color: "
+"#b926ff;\" target=\"_blank\" href=\"https://wordpress.org/support/plugin/"
+"%2$s/reviews/?rate=5#new-post\">write a little review</a>. That will also "
+"bring me joy and motivation! I will get back to you :)"
+msgstr ""
+"Sie benutzen <b>%1$s</b> schon seit einiger Zeit. Ich danke Ihnen! Könnten "
+"Sie mir freundlicherweise Ihre Meinung mitteilen, zusammen mit, vielleicht, "
+"Funktionen, die Sie gerne umgesetzt sehen würden? Dann <a style=\"font-"
+"weight: bold; color: #b926ff;\" target=\"_blank\" href=\"https://wordpress."
+"org/support/plugin/%2$s/reviews/?rate=5#new-post\">schreiben Sie</a> bitte "
+"<a style=\"font-weight: bold; color: #b926ff;\" target=\"_blank\" href="
+"\"https://wordpress.org/support/plugin/%2$s/reviews/?rate=5#new-post\">eine "
+"kleine Rezension</a>. Das wird mir auch Freude und Motivation bringen, und "
+"ich werde auf Sie zurückkommen :) Falls <u>Sie bereits eine Rezension "
+"geschrieben haben</u>, überprüfen Sie diese bitte noch einmal. Viele "
+"Rezensionen wurden kürzlich aus WordPress entfernt."
+
+#: common/classes/ratings.php:73
+msgid "Never remind me!"
+msgstr "Erinnern Sie mich nie daran!"
+
+#: common/classes/ratings.php:78
+msgid "Remind me in a few weeks..."
+msgstr "Erinnern Sie mich daran, dass ich in ein paar Wochen..."
+
+#: common/classes/ratings.php:83
+msgid "Yes, I did it!"
+msgstr "Ja, ich hab's geschafft!"
+
+#: common/classes/updater.php:228
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Es ist eine neue Version von %1$s verfügbar. %2$sDetails zu Version %3$s "
+"ansehen%4$s."
+
+#: common/classes/updater.php:236
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Es ist eine neue Version von %1$s verfügbar. %2$sDetails zu Version %3$s "
+"ansehen%4$s oder %5$sjetzt aktualisieren%6$s."
+
+#: common/classes/updater.php:493
+msgid "You do not have permission to install plugin updates"
+msgstr "Sie haben keine Berechtigung, um Plugin-Updates zu installieren"
+
+#: common/classes/updater.php:493
+msgid "Error"
+msgstr "Fehler"
+
+#: premium/rest.php:125
+msgid "The file is not an image or the upload went wrong."
+msgstr "Die Datei ist kein Bild oder der Upload ist schief gelaufen."
+
+#: premium/rest.php:131
+msgid "You cannot use this file (wrong extension? wrong type?)."
+msgstr "Sie können diese Datei nicht hochladen (falscher Dateityp?)."
+
+#. Plugin Name of the plugin/theme
+msgid "Perfect Images + Retina (Pro)"
+msgstr "Dateien für hohe Auflösungen"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://meowapps.com"
+msgstr "https://meowapps.com"
+
+#. Description of the plugin/theme
+msgid ""
+"Retina, Replace Images, Regenerate Thumbnails, Image Sizes Management, Image "
+"Threshold and more."
+msgstr ""
+"Retina, Bilder ersetzen, Miniaturansichten regenerieren, Verwaltung der "
+"Bildgrößen, Bildschwelle und mehr."
+
+#. Author of the plugin/theme
+msgid "Jordy Meow"
+msgstr "Jordy Meow"
+
+#~ msgid ""
+#~ "Done. Please <a href='javascript:history.go(0)'>refresh</a> this page."
+#~ msgstr ""
+#~ "Erledigt. Bitte <a href='javascript:history.go(0)'>lade die Seite neu</a>."
+
+#~ msgid ""
+#~ "Done. You might want to <a href='?page=wp-"
+#~ "retina-2x&view=issues&refresh=true'>refresh</a> the issues."
+#~ msgstr ""
+#~ "fertig. Möchten Sie vielleicht die Seite <a href='?page=wp-"
+#~ "retina-2x&view=issues&refresh=true'>aktualisieren</a>?"
+
+#~ msgid "Please wait..."
+#~ msgstr "Bitte warten..."
+
+#~ msgid "Nothing to do ;)"
+#~ msgstr "Nichts zu tun ;)"
+
+#~ msgid "GENERATE"
+#~ msgstr "GENERIEREN"
+
+#~ msgid "The attachment ID is missing."
+#~ msgstr "Die Anhangs-ID fehlt."
+
+#~ msgid "Retina files deleted."
+#~ msgstr "Retina-Dateien gelöscht."
+
+#~ msgid "Retina files generated."
+#~ msgstr "Netzhautdateien generiert."
+
+#~ msgid "You don't have the rights to use a temporary directory."
+#~ msgstr ""
+#~ "Sie haben nicht die Rechte zur Verwendung eines temporären Verzeichnisses."
+
+#~ msgid "The temporary directory could not be created."
+#~ msgstr "Das temporäre Verzeichnis konnte nicht erstellt werden."
+
+#~ msgid "Replaced successfully."
+#~ msgstr "Erfolgreich ersetzt."
+
+#~ msgid "Retina images"
+#~ msgstr "Netzhautbilder"
+
+#, php-format
+#~ msgid "Retina %s"
+#~ msgstr "Netzhaut %s"
+
+#~ msgid "Delete all @2x"
+#~ msgstr "Alle (@2x) Dateien löschen"
+
+#~ msgid "Refresh issues"
+#~ msgstr "Fehler erneut lesen"
+
+#~ msgid "Issues has been refreshed."
+#~ msgstr "Probleme wurden neu gelesen."
+
+#~ msgid ""
+#~ "This screen allows you to check the media for which the retina files are "
+#~ "missing. You can then create the files independently for each media or "
+#~ "for all of them. You can also upload and replace the images by drag & "
+#~ "drop them on the grid."
+#~ msgstr ""
+#~ "Auf diesem Bildschirm können Sie die Bilder überprüfen, für die die "
+#~ "Retinadateien fehlen. Sie können die Dateien dann für jedes Medium oder "
+#~ "für alle unabhängig erstellen. Sie können die Bilder auch hochladen und "
+#~ "ersetzen, indem Sie sie ins Raster ziehen und ablegen."
+
+#~ msgid "Issues"
+#~ msgstr "Probleme"
+
+#~ msgid "Ignored"
+#~ msgstr "Ignorierte Dateien"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "Actions"
+#~ msgstr "Aktion"
+
+#~ msgid "IGNORE"
+#~ msgstr "Ignorieren"
+
+#~ msgid "Current method:"
+#~ msgstr "Aktuelle Methode:"
+
+#~ msgid "Client side"
+#~ msgstr "Klient-Seitig"
+
+#~ msgid "Server side"
+#~ msgstr "Serverseitige Anwendung"
+
+#~ msgid ""
+#~ "By the way, you are using a <b>WordPress Multi-Site installation</b>! You "
+#~ "must edit your .htaccess manually and add '<b>RewriteRule ^files/(.+) wp-"
+#~ "content/plugins/wp-retina-2x/wr2x_image.php?ms=true&file=$1 [L]</b>' as "
+#~ "the first RewriteRule if you want the server-side to work."
+#~ msgstr ""
+#~ "Übrigens, Sie verwenden eine <b>WordPress Multi-Site Installation</b>! "
+#~ "Sie müssen Ihren.htaccess manuell bearbeiten und<b> 'RewriteRule ^files/(."
+#~ "+) wp-content/plugins/wp-retina-2x/wr2x_image.php?ms=true&amp;file=$1[L]</"
+#~ "b>' als erste RewriteRule hinzufügen, wenn die Server-Seite funktionieren "
+#~ "soll."
+
+#~ msgid ""
+#~ "By the way, you are using a <b>WordPress Multi-Site installation</b>! You "
+#~ "must edit your .htaccess manually and add '<b>RewriteRule ^(wp-content/.+"
+#~ "\\.(png|gif|jpg|jpeg|bmp|PNG|GIF|JPG|JPEG|BMP)) wp-content/plugins/wp-"
+#~ "retina-2x/wr2x_image.php?ms=true&file=$1 [L]</b>' as the first "
+#~ "RewriteRule if you want the server-side to work."
+#~ msgstr ""
+#~ "Übrigens, Sie verwenden eine <b>WordPress Multi-Site Installation</b>! "
+#~ "Sie müssen Ihren.htaccess manuell bearbeiten und<b> 'RewriteRule ^(wp-"
+#~ "content/.+\\.(png|gif|gif|jpg|jpeg|bmp|PNG|GIF|JPG|JPEG|BMP))) wp-content/"
+#~ "plugins/wp-retina-2x/wr2x_image.php?ms=true&amp;file=$1[L]</b>' als erste "
+#~ "RewriteRule hinzufügen, wenn Sie wollen, dass die Server-Seite "
+#~ "funktioniert."
+
+#~ msgid ""
+#~ "The permalinks are not enabled. They need to be enabled in order to use "
+#~ "the server-side method."
+#~ msgstr ""
+#~ "Die Permalinks sind nicht aktiviert. Sie müssen aktiviert werden, um die "
+#~ "serverseitige Methode nutzen zu können."
+
+#~ msgid "Basics"
+#~ msgstr "Grundlagen"
+
+#~ msgid "Advanced"
+#~ msgstr "Erweitert"
+
+#~ msgid "Disabled Sizes"
+#~ msgstr "Größen deaktivieren"
+
+#~ msgid "The checked sizes will not be generated for Retina displays."
+#~ msgstr "Die ausgewählten Größen werden für Retina-Displays nicht erzeugt."
+
+#~ msgid "Auto Generate"
+#~ msgstr "Automatisch erstellen"
+
+#~ msgid ""
+#~ "Generate Retina images automatically when images are uploaded to the "
+#~ "Media Library."
+#~ msgstr ""
+#~ "Retina Bildern werden automatisch erzeugt, wenn Bilder in die "
+#~ "Medienbibliothek hochgeladen werden."
+
+#~ msgid "Method"
+#~ msgstr "Methode"
+
+#~ msgid ""
+#~ "<br />\n"
+#~ "                \t\tThe <b>HTML Rewrite method</b> is probably the best, "
+#~ "especially when used with Cloudflare or Google PageSpeed Service! You "
+#~ "cannot use a basic HTML caching plugin with it (or you have to hack the "
+#~ "options properly). <br /><br />\n"
+#~ "                \t\tThe <b>Server-side method</b> is very fast and "
+#~ "efficient. However, depending on the hosting and cache system you are "
+#~ "using (including services like Cloudflare) you might encounter issues."
+#~ "<br /><br />\n"
+#~ "                \t\tThe <b>Client-side method</b> is fail-safe and only "
+#~ "uses a JavaScript file. When a Retina Display is detected, requests for "
+#~ "every images on the page will be sent to the server and a high resolution "
+#~ "image will be retrieved if available. It requires more bandwidth.\n"
+#~ "                \t"
+#~ msgstr ""
+#~ "<br>Die <b>HTML-Rewrite-Methode</b> ist wahrscheinlich die beste, "
+#~ "besonders wenn sie mit Cloudflare oder Google PageSpeed Service verwendet "
+#~ "wird! Sie können damit kein grundlegendes HTML-Caching-Plugin verwenden "
+#~ "(oder Sie müssen die Optionen richtig hacken).<br><br>Die <b>Server-Side-"
+#~ "Methode</b> ist sehr schnell und effizient. Je nach Hosting-und Cache-"
+#~ "System, das Sie verwenden (einschließlich Dienste wie Cloudflare), können "
+#~ "Sie jedoch auf Probleme stoßen.<br><br>Die <b>Client-Side-Methode</b> ist "
+#~ "ausfallsicher und verwendet nur eine JavaScript-Datei. Wenn ein Retina-"
+#~ "Display erkannt wird, werden Anfragen für jedes Bild auf der Seite an den "
+#~ "Server gesendet und ein hochauflösendes Bild wird abgerufen, wenn "
+#~ "verfügbar. Es erfordert mehr Bandbreite "
+
+#~ msgid "HTML Rewrite"
+#~ msgstr "HTML Neuschreiben"
+
+#~ msgid "None"
+#~ msgstr "Keine"
+
+#~ msgid "Quality"
+#~ msgstr "Qualität"
+
+#~ msgid "Image Compression quality (between 0 and 100)."
+#~ msgstr "Bilder Kompressionsqualität (zwischen 0 und 100)."
+
+#~ msgid "Debug Mode"
+#~ msgstr "Debug Modus"
+
+#~ msgid ""
+#~ "If checked, the client will be always served Retina images. Convenient "
+#~ "for testing."
+#~ msgstr ""
+#~ "Wenn diese Option aktiviert ist, werden dem Client immer Retina-Bilder "
+#~ "gesendet. Praktisch zum Testen."
+
+#~ msgid "Hide 'Retina' column"
+#~ msgstr "Retina Spalte nicht anzeigen"
+
+#~ msgid "Will hide the 'Retina Column' from the Media Library."
+#~ msgstr "Versteckt die Retina Spalte in der Mediathek."
+
+#~ msgid "Hide Retina Dashboard"
+#~ msgstr "Retina Spalte nicht anzeigen"
+
+#~ msgid "Doesn't show the Retina Dashboard menu and tools."
+#~ msgstr "Das Retina Dashboard-Menü und die Tools werden nicht angezeigt."
+
+#~ msgid "Ignore Mobile"
+#~ msgstr "Mobilgeräte Ignorieren"
+
+#~ msgid "Doesn't deliver Retina images to mobiles."
+#~ msgstr "Retina Bilder werden nicht an Mobile ausgeliefert"
+
+#~ msgid "Titre"
+#~ msgstr "Titre"
+
+#~ msgid ""
+#~ "Current method: <u>Server-side</u>.</span> Oh, and don't forget to check "
+#~ "the tutorial of this plugin on <a href='http://www.totorotimes.com/news/"
+#~ "retina-display-wordpress-plugin'>Totoro Times</a>."
+#~ msgstr ""
+#~ "Méthode sélectionnée: <u>Server-side</u>.</span> Oh, n'oubliez pas de "
+#~ "lire mon tutoriel sur ce plugin sur <a href='http://www.totorotimes.com/"
+#~ "news/retina-display-wordpress-plugin'>Totoro Times</a>."
+
+#~ msgid "Done."
+#~ msgstr "Terminé."
+
+#~ msgid "ERROR"
+#~ msgstr "ERREUR"
+
+#~ msgid "Not created yet."
+#~ msgstr "Pas encore créé."
+
+#~ msgid "Generate for all files"
+#~ msgstr "Générer tous les fichiers"
+
+#~ msgid ""
+#~ "By the way, you are also using a <b>WordPress Network installation</b>. "
+#~ "The server-side might not work for you, so <b>please try the client-side "
+#~ "method instead</b>. If you really want to use this method, you will have "
+#~ "to work on your .htaccess manually."
+#~ msgstr ""
+#~ "Vous utilisez une version de WordPress <b>Multisite</b>. Il est possible "
+#~ "que la méthode côté serveur ne fonctionne pas, alors dans ce cas essayé "
+#~ "la méthode <b>côté client</b>. Si vous voulez vraiment utiliser cette "
+#~ "méthode, vous aurez peut-être besoin de bidouiller votre .htaccess "
+#~ "manuellement."
+
+#~ msgid ""
+#~ "This plugin supports and uses the <a href='http://wordpress.org/extend/"
+#~ "plugins/enable-media-replace/'>Enable Media Replace</a> plugin if "
+#~ "available. A 'Replace' button will appear in case your images are too "
+#~ "small. It is strongly recommended to install it."
+#~ msgstr ""
+#~ "WP Retina 2x peut automatiquement utiliser le plugin <a href='http://"
+#~ "wordpress.org/extend/plugins/enable-media-replace/'>Enable Media Replace</"
+#~ "a> si il est installé. Un bouton 'Réuploader' apparaîtra alors lorsque "
+#~ "l'image originale est trop petite."
+
+#~ msgid ""
+#~ "This plugin is actively developped and maintained by <a href='https://"
+#~ "plus.google.com/106075761239802324012'>Jordy Meow</a>.<br />Please visit "
+#~ "me at <a href='http://www.totorotimes.com'>Totoro Times</a>, a website "
+#~ "about Japan, photography and abandoned places.<br />And thanks for "
+#~ "linking us on <a href='https://www.facebook.com/totorotimes'>Facebook</a> "
+#~ "and <a href='https://plus.google.com/106832157268594698217'>Google+</a> :)"
+#~ msgstr ""
+#~ "Ce plugin est activement développé et maintenu par <a href='https://plus."
+#~ "google.com/106075761239802324012'>Jordy Meow</a>.<br />Merci de me "
+#~ "visiter sur <a href='http://www.totorotimes.fr'>Totoro Times</a>, un site "
+#~ "sur le Japan, la photographie et les endroits abandonnés.<br />Et merci "
+#~ "de nous adorer sur <a href='https://www.facebook.com/"
+#~ "totorotimes'>Facebook</a> et <a href='https://plus.google."
+#~ "com/106832157268594698217'>Google+</a> :)"

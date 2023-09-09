@@ -1,0 +1,12 @@
+/* Hide "Disable responsive content elements" option since it cannot be used with the theme */
+#vc-settings-general .form-table tr + tr + tr,
+#vc_settings-general .form-table tr + tr + tr {
+    display: none;
+}
+
+/* Hide "Design Options", "Element Class Names" and "Custom CSS" tabs in Settings > Visual Composer */
+#wpb-js-composer-settings a[href="#vc-settings-color"],
+#wpb-js-composer-settings a[href="#vc-settings-element_css"],
+#wpb-js-composer-settings a[href="#vc-settings-custom_css"] {
+    display: none;
+}

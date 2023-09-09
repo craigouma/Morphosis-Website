@@ -1,0 +1,180 @@
+/* Since theme v1.5.0 */
+.wpb_el_type_checkbox .checkbox {
+	margin-bottom: 10px !important;
+	margin-left: 10px !important;
+}
+
+.wpb_el_type_checkbox .checkbox:first-child {
+	margin-left: 0 !important;
+}
+
+.uxb_theme_class.checkbox {
+	display: none;
+}
+
+/* makes VC tabs on modal (for templates) correct CSS (previously been overrided by OT's CSS */
+.vc_panel-tabs > ul {
+	width: 100% !important;
+}
+.vc_panel-tabs > ul li {;
+    text-shadow: none !important;
+}
+
+.vc_panel-tabs > ul li a {
+    border-bottom: 0 !important;
+    color: #949494 !important;
+    padding: 11px 15px !important;
+}
+
+.vc_panel-tabs > ul li a:hover {
+    color: inherit !important;
+}
+
+.vc_panel-tabs > ul li.ui-state-active a {
+    color: #595959 !important;
+}
+
+/* hide VC tabs on modal */
+#vc_edit-form-tabs > ul {
+	display: none;
+}
+
+/* hide VC font color */
+#vc_edit-form-tabs > div.vc_edit-form-tab > div.wpb_el_type_colorpicker.vc_shortcode-param {
+	display: none;
+}
+
+/* fixed vtab styles in VC editor that have some CSS conflict with OptionTree's and jQuery UI's */
+.wpb_vc_tour > .wpb_element_wrapper .ui-tabs .ui-tabs-nav li {
+    text-shadow: none;
+}
+
+.wpb_vc_tabs > .wpb_element_wrapper .ui-tabs .ui-tabs-nav li a,
+.wpb_vc_tour > .wpb_element_wrapper .ui-tabs .ui-tabs-nav li a {
+    color: #848c91 !important;
+    padding: 10px 16px !important;
+    border-bottom: inherit;
+}
+
+.wpb_vc_tabs > .wpb_element_wrapper .ui-tabs .ui-tabs-nav li a:hover,
+.wpb_vc_tour > .wpb_element_wrapper .ui-tabs .ui-tabs-nav li a:hover {
+	color: inherit !important;
+}
+
+.wpb_vc_tabs > .wpb_element_wrapper .ui-tabs .ui-tabs-nav li.add_tab_block a,
+.wpb_vc_tour > .wpb_element_wrapper .ui-tabs .ui-tabs-nav li.add_tab_block a {
+	height: auto !important;
+	margin: 0;
+	padding: 7px !important;
+	width: auto !important;
+}
+
+.wpb_element_wrapper {
+	overflow: hidden;
+}
+
+/* fixed "remove" icon of image selection thumbnail (it is firstly overrided by FontAwesome CSS */
+.wpb_el_type_attach_images .icon-remove:before , 
+.wpb_el_type_attach_image .icon-remove:before {
+    content: '';
+}
+
+/* fixed "add section" of accordion element on VC editor */
+#poststuff .wpb_vc_accordion .tab_controls .add_tab {
+    padding: 5px !important;
+    height: inherit !important;
+    color: inherit !important;
+}
+
+/* End of v1.5.0 */
+
+
+.wpb-edit-form.vc-with-tabs .vc-tabs li[aria-controls*="vc-edit-form-tab"] {
+	display: none;
+}
+
+
+.mceTop span {
+	/*font-family: 'Lato', sans-serif !important;*/
+	font-family: Arial, sans-serif !important;
+	font-size: 14px !important;
+}
+
+/* Hide frontend editor button */
+a.wpb_switch-to-front-composer,
+a.wpb_switch-to-front-composer + .vc-spacer{
+    display: none !important;
+}
+
+/* Hide VC Teaser meta box */
+#vc_teaser {
+	display: none;
+}
+
+
+/* To override .warning class of optiontree */
+.wpb_vc_param_value .warning {
+	color: inherit !important;
+}
+
+.wpb_uxb_googlemap .wpb_vc_param_value.address {
+	border: 0 !important;
+	padding: 0 !important;
+	font-family: inherit !important;
+	display: block;
+}
+
+/* vc column, row param on editor */
+span.wpb_vc_param_value.uxb_theme_class.uxb_checkbox {
+	display: none;
+}
+
+/* Hide vc params on editor */
+.wpb_vc_gmaps .wpb_vc_param_value,
+.wpb_vc_single_image .wpb_vc_param_value,
+.wpb_vc_gallery .wpb_vc_param_value,
+.wpb_vc_teaser_grid .wpb_vc_param_value,
+.wpb_vc_button .wpb_vc_param_value,
+.wpb_vc_button .vc_admin_label.admin_label_size,
+.wpb_vc_cta_button .wpb_vc_param_value,
+.wpb_vc_posts_grid .wpb_vc_param_value {
+	display: none !important;
+}
+
+.wpb_uxb_portfolio .wpb_vc_param_value.categories {
+	/*display: block !important;*/
+}
+
+
+/* uxb_checkbox */
+.uxb_checkbox_label {
+	display: block !important;
+	margin: 10px 5px;
+}
+
+/* Hide blank dummy checkbox */
+.uxb_checkbox_label:first-of-type {
+	display: none !important;
+}
+
+/* Adjust tab, tour tabs on editor */
+.wpb_vc_tabs .ui-tabs-nav {
+	width: inherit !important;
+}
+
+.wpb_vc_tour > .wpb_element_wrapper .ui-tabs .ui-tabs-nav {
+	width: 30% !important;
+}
+
+/* Elements on editor */
+.wpb_content_element > .wpb_element_wrapper {
+	height: 40px;
+	min-height: 40px !important;
+}
+
+
+/***** UXbarn Portfolio *****/
+/* hide meta box */
+#uxbarn_portfolio_item_format_meta_box {
+	display: none;
+}

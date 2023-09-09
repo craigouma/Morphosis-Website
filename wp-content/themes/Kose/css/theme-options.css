@@ -1,0 +1,42 @@
+#option-tree-version span {
+	display: none !important;
+}
+
+#option-tree-version span#theme-version {
+	display: block !important;
+}
+
+.option-tree-save-layout {
+	display: none;
+}
+
+#theme-options-msg {
+	float:left; 
+	margin-top: 12px; 
+	margin-left:18px; 
+}
+
+#theme-options-msg img {
+	margin-right: 8px;
+	margin-bottom: 5px;
+	vertical-align: middle;
+}
+
+#option-tree-header #option-tree-logo {
+	background: url('../images/admin/uxbarn_sm2.png') no-repeat 13px center !important;
+}
+
+#option-tree-header #option-tree-logo a:before {
+	content: '' !important;
+}
+
+
+
+/***** UXbarn Portfolio *****/
+/*** Hide unused options of the plugin ***/
+#setting_uxb_port_po_single_page_slider_transition,
+#setting_uxb_port_po_single_page_slider_transition_speed,
+#setting_uxb_port_po_single_page_slider_auto_rotation,
+#setting_uxb_port_po_single_page_slider_rotation_duration {
+	display: none !important;
+}

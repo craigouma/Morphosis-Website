@@ -1,0 +1,422 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: UXbarn Team Plugin\n"
+"POT-Creation-Date: 2014-05-16 14:56+0700\n"
+"PO-Revision-Date: 2014-05-16 14:56+0700\n"
+"Last-Translator: Paul <paul@uxbarn.com>\n"
+"Language-Team: UXbarn <support@uxbarn.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/assets.php:24
+msgid ""
+"Please find below for some options that you can set for UXbarn Team plugin."
+msgstr ""
+
+#: ../includes/meta-boxes.php:24
+msgid "Team Member Excerpt Setting"
+msgstr ""
+
+#: ../includes/meta-boxes.php:32
+msgid "Excerpt"
+msgstr ""
+
+#: ../includes/meta-boxes.php:33
+msgid ""
+"The excerpt or short description of this member. It will only be used in the "
+"team member element. This should be short and concise."
+msgstr ""
+
+#: ../includes/meta-boxes.php:59
+msgid "Team Member Meta Info Setting"
+msgstr ""
+
+#: ../includes/meta-boxes.php:67 ../includes/post-types.php:50
+msgid "Position"
+msgstr ""
+
+#: ../includes/meta-boxes.php:68
+msgid "Enter the position of this member. Example: <em>Co-founder</em>"
+msgstr ""
+
+#: ../includes/meta-boxes.php:79
+msgid "Email"
+msgstr ""
+
+#: ../includes/meta-boxes.php:80
+msgid "Enter the email of this member"
+msgstr ""
+
+#: ../includes/meta-boxes.php:104
+msgid "Please make sure to put \"http://\" at the front of the URL."
+msgstr ""
+
+#: ../includes/meta-boxes.php:111
+msgid "Social Network Setting"
+msgstr ""
+
+#: ../includes/meta-boxes.php:122
+msgid ""
+"Enter the URL for each social network of this member below. If you want to "
+"manage the team social icon set, please go to \"Settings > UXbarn Team "
+"Options\""
+msgstr ""
+
+#: ../includes/meta-boxes.php:139
+msgid "Twitter URL"
+msgstr ""
+
+#: ../includes/meta-boxes.php:151
+msgid "Facebook URL"
+msgstr ""
+
+#: ../includes/meta-boxes.php:163
+msgid "Google+ URL"
+msgstr ""
+
+#: ../includes/meta-boxes.php:175
+msgid "LinkedIn URL"
+msgstr ""
+
+#: ../includes/meta-boxes.php:187
+msgid "Dribbble URL"
+msgstr ""
+
+#: ../includes/meta-boxes.php:199
+msgid "Forrst URL"
+msgstr ""
+
+#: ../includes/meta-boxes.php:211
+msgid "Flickr URL"
+msgstr ""
+
+#: ../includes/meta-boxes.php:248
+msgid "URL"
+msgstr ""
+
+#: ../includes/meta-boxes.php:267
+#, php-format
+msgid ""
+"You have not assigned the ID for the \"%s\" social icon yet. Please go to "
+"\"Settings > UXbarn Team Options\" to manage the custom icon list"
+msgstr ""
+
+#: ../includes/meta-boxes.php:290
+msgid ""
+"You have not added any custom social icons yet. Please go to \"Settings > "
+"UXbarn Team Options\" to manage the custom icon list"
+msgstr ""
+
+#: ../includes/meta-boxes.php:320
+msgid "Single Page Image Setting"
+msgstr ""
+
+#: ../includes/meta-boxes.php:328
+msgid "Upload Single Page Image"
+msgstr ""
+
+#: ../includes/meta-boxes.php:329
+msgid ""
+"This image will be used in the single page of this team member only. "
+"<strong>Recommended dimension is 420x850.</strong>. To upload the member "
+"thumbnail, please use Featured Image."
+msgstr ""
+
+#: ../includes/plugin-functions.php:103 ../includes/post-types.php:10
+msgid "Team Member"
+msgstr ""
+
+#: ../includes/plugin-functions.php:107
+msgid "Content"
+msgstr ""
+
+#: ../includes/plugin-functions.php:113
+msgid "Team member"
+msgstr ""
+
+#: ../includes/plugin-functions.php:116
+msgid "Select a member to be added into the column."
+msgstr ""
+
+#: ../includes/plugin-functions.php:123
+msgid "Thumbnail size"
+msgstr ""
+
+#: ../includes/plugin-functions.php:126
+msgid ""
+"Select which size to be used for the member thumbnail. Anyway, the image "
+"will be scaled depending on its original size and containing column. If you "
+"are not sure which one to use, try <em>Original size</em>."
+msgstr ""
+
+#: ../includes/plugin-functions.php:133
+msgid "Link?"
+msgstr ""
+
+#: ../includes/plugin-functions.php:136
+msgid "Yes, enable link on thumbnail and member name to the single page"
+msgstr ""
+
+#: ../includes/plugin-functions.php:137
+msgid "No link"
+msgstr ""
+
+#: ../includes/plugin-functions.php:139
+msgid "Whether to have a link to member's single page."
+msgstr ""
+
+#: ../includes/plugin-functions.php:146
+msgid "Heading size"
+msgstr ""
+
+#: ../includes/plugin-functions.php:149
+msgid "Large"
+msgstr ""
+
+#: ../includes/plugin-functions.php:150
+msgid "Smaller"
+msgstr ""
+
+#: ../includes/plugin-functions.php:152
+msgid "Select the size for heading which is used to display name and position."
+msgstr ""
+
+#: ../includes/plugin-functions.php:159
+msgid "Display social icons?"
+msgstr ""
+
+#: ../includes/plugin-functions.php:162
+msgid "Yes"
+msgstr ""
+
+#: ../includes/plugin-functions.php:163 ../includes/plugin-functions.php:174
+msgid "No"
+msgstr ""
+
+#: ../includes/plugin-functions.php:165
+msgid "Whether to display the social network icons."
+msgstr ""
+
+#: ../includes/plugin-functions.php:170
+msgid "CSS Animation"
+msgstr ""
+
+#: ../includes/plugin-functions.php:175
+msgid "Top to bottom"
+msgstr ""
+
+#: ../includes/plugin-functions.php:176
+msgid "Bottom to top"
+msgstr ""
+
+#: ../includes/plugin-functions.php:177
+msgid "Left to right"
+msgstr ""
+
+#: ../includes/plugin-functions.php:178
+msgid "Right to left"
+msgstr ""
+
+#: ../includes/plugin-functions.php:179
+msgid "Appear from center"
+msgstr ""
+
+#: ../includes/plugin-functions.php:181
+msgid ""
+"Select animation type if you want this element to be animated when it enters "
+"into the browsers viewport. Note: Works only in modern browsers."
+msgstr ""
+
+#: ../includes/plugin-functions.php:236
+msgid "Twitter"
+msgstr ""
+
+#: ../includes/plugin-functions.php:237
+msgid "Facebook"
+msgstr ""
+
+#: ../includes/plugin-functions.php:238
+msgid "Google+"
+msgstr ""
+
+#: ../includes/plugin-functions.php:239
+msgid "LinkedIn"
+msgstr ""
+
+#: ../includes/plugin-functions.php:240
+msgid "Dribbble"
+msgstr ""
+
+#: ../includes/plugin-functions.php:241
+msgid "Forrst"
+msgstr ""
+
+#: ../includes/plugin-functions.php:242
+msgid "Flickr"
+msgstr ""
+
+#: ../includes/plugin-options.php:19 ../includes/plugin-options.php:20
+msgid "UXbarn Team Options"
+msgstr ""
+
+#: ../includes/plugin-options.php:25
+msgid "Plugin options updated."
+msgstr ""
+
+#: ../includes/plugin-options.php:26
+msgid "Plugin options reset."
+msgstr ""
+
+#: ../includes/plugin-options.php:27
+msgid "Save Changes"
+msgstr ""
+
+#: ../includes/plugin-options.php:35
+msgid "Social Icons of Team Member"
+msgstr ""
+
+#: ../includes/plugin-options.php:43
+msgid "Social Icon Set"
+msgstr ""
+
+#: ../includes/plugin-options.php:44
+msgid ""
+"Select whether to use the default built-in set of the plugin or define your "
+"own set for social icons."
+msgstr ""
+
+#: ../includes/plugin-options.php:55
+msgid "Default Set"
+msgstr ""
+
+#: ../includes/plugin-options.php:60
+msgid "Custom Set"
+msgstr ""
+
+#: ../includes/plugin-options.php:68
+msgid "Custom Social Network Icons"
+msgstr ""
+
+#: ../includes/plugin-options.php:69
+msgid ""
+"You can use this option to add your own list of social network icon. Just "
+"click \"Add New\" button, enter the title, ID and upload the icon image. You "
+"can also rearrange the positions using drag-and-drop feature here. This will "
+"apply to every team member."
+msgstr ""
+
+#: ../includes/plugin-options.php:83
+msgid "Unique ID"
+msgstr ""
+
+#: ../includes/plugin-options.php:84
+msgid ""
+"<p>Assign the ID for this social icon.</p><p><strong>Important: This field "
+"is required and must be only in plain English without special characters "
+"(underscore is allowed).</strong></p><p>For examples, if this is for "
+"Facebook, you might enter the ID as \"social_facebook\". Or, if it is "
+"Twitter, you can enter it as \"social_twitter\".</p>"
+msgstr ""
+
+#: ../includes/plugin-options.php:97
+msgid "Icon"
+msgstr ""
+
+#: ../includes/plugin-options.php:98
+msgid "Upload an image for this social icon"
+msgstr ""
+
+#: ../includes/plugin-options.php:114
+msgid "Twitter Icon"
+msgstr ""
+
+#: ../includes/plugin-options.php:115 ../includes/plugin-options.php:127
+#: ../includes/plugin-options.php:139 ../includes/plugin-options.php:151
+#: ../includes/plugin-options.php:163 ../includes/plugin-options.php:175
+#: ../includes/plugin-options.php:187
+msgid "You can leave it blank to use plugin's default icon."
+msgstr ""
+
+#: ../includes/plugin-options.php:126
+msgid "Facebook Icon"
+msgstr ""
+
+#: ../includes/plugin-options.php:138
+msgid "Google+ Icon"
+msgstr ""
+
+#: ../includes/plugin-options.php:150
+msgid "LinkedIn Icon"
+msgstr ""
+
+#: ../includes/plugin-options.php:162
+msgid "Dribbble Icon"
+msgstr ""
+
+#: ../includes/plugin-options.php:174
+msgid "Forrst Icon"
+msgstr ""
+
+#: ../includes/plugin-options.php:186
+msgid "Flickr Icon"
+msgstr ""
+
+#: ../includes/post-types.php:8 ../includes/post-types.php:22
+msgid "Team"
+msgstr ""
+
+#: ../includes/post-types.php:11 ../includes/post-types.php:12
+msgid "Add New Member"
+msgstr ""
+
+#: ../includes/post-types.php:13
+msgid "New Member"
+msgstr ""
+
+#: ../includes/post-types.php:14
+msgid "Edit Member"
+msgstr ""
+
+#: ../includes/post-types.php:15
+msgid "All Members"
+msgstr ""
+
+#: ../includes/post-types.php:16
+msgid "View"
+msgstr ""
+
+#: ../includes/post-types.php:17
+msgid "Search Member"
+msgstr ""
+
+#: ../includes/post-types.php:18
+msgid "Nothing found"
+msgstr ""
+
+#: ../includes/post-types.php:19
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: ../includes/post-types.php:29
+msgid "team"
+msgstr ""
+
+#: ../includes/post-types.php:48
+msgid "Title"
+msgstr ""
+
+#: ../includes/post-types.php:49
+msgid "Thumbnail"
+msgstr ""
+
+#: ../includes/vc-param-array.php:8
+msgid "Original size"
+msgstr ""

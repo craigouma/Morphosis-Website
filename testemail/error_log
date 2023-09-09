@@ -1,0 +1,7 @@
+[05-Mar-2015 08:55:29 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/morphosi/public_html/testemail/send_form_email.php on line 93
+[05-Mar-2015 08:55:29 America/New_York] PHP Strict Standards:  Non-static method Mail_RFC822::parseAddressList() should not be called statically, assuming $this from incompatible context in /home/morphosi/public_html/testemail/Mail.php on line 253
+[05-Mar-2015 08:55:29 America/New_York] PHP Strict Standards:  Non-static method PEAR::raiseError() should not be called statically, assuming $this from incompatible context in /home/morphosi/public_html/testemail/Mail/sendmail.php on line 148
+[05-Mar-2015 09:41:20 America/New_York] PHP Fatal error:  Cannot redeclare class Mail in /home/morphosi/public_html/testemail/Mail.php on line 58
+[05-Mar-2015 09:47:01 America/New_York] PHP Fatal error:  Cannot redeclare class Mail in /home/morphosi/public_html/testemail/Mail.php on line 58
+[05-Mar-2015 09:55:11 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/morphosi/public_html/testemail/send_form_email.php on line 79
+[05-Mar-2015 09:56:26 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/morphosi/public_html/testemail/send_form_email.php on line 79
